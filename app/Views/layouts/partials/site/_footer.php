@@ -80,7 +80,7 @@
 <template id="cartItem">
     <div class="cart-item">
         <div class="picture product-img">
-            <img src="../public/images/prod3.jpg" alt="name" class="img-fluid w-100">
+            <img src="../assets/images/prod3.jpg" alt="name" class="img-fluid w-100">
         </div>
         <div class="product_name p-auto">Product name</div>
         <div class="remove-btn text-right">
@@ -101,6 +101,5 @@
         </div>
     </div>
 </template>
-<script src="../public/js/app.js"></script>
 </body>
 </html>

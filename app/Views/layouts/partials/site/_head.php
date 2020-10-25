@@ -1,4 +1,3 @@
-
     <link href="/assets/css/style.css" rel="stylesheet">
     <link href="/assets/css/footer.css" rel="stylesheet">
     <link href="/assets/css/base.css" rel="stylesheet">

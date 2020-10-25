@@ -86,7 +86,7 @@ class App {
     createProduct = (data) =>
         `
        <div class="product cs-1 md-2 tb-3 tb-4 pic-center pic-parent"  data-id="${data.id}">
-           <img alt="${data.name}" src="${data.img}" class="img-fluid">
+           <img alt="${data.name}" src="/assets/${data.img}" class="img-fluid">
            <strong class="sm-bottom prod-bottom font-size--small">${data.price}</strong>
            <strong class="sm-desc prod-desc">${data.name}</strong>
             <ul class="prod-text">
@@ -118,7 +118,7 @@ class App {
         div.innerHTML =
             `
                     <div class="picture product-img">
-                        <img src="${item.img}" alt="${item.img}" class="img-fluid w-100">
+                        <img src="/assets/${item.img}" alt="${item.img}" class="img-fluid w-100">
                     </div>
                     <div class="product_name mx-auto">${item.name}</div>
                     <div class="remove-btn text-right">
@@ -282,7 +282,7 @@ class App {
 
     createCategory(category) {
         return `
-         <a class="cat-overflow" data-category="${category.name}" href="shop.html"><img alt="categories block" src="${category.img}" class="img-fluid transform"><strong class="text-inside1 category-item" data-category="${category.name}">"${category.name}"</strong></a>
+         <a class="cat-overflow" data-category="${category.name}" href="shop"><img alt="categories block" src="/assets/${category.img}" class="img-fluid transform"><strong class="text-inside1 category-item" data-category="${category.name}">"${category.name}"</strong></a>
         `
     }
 

@@ -1,5 +1,5 @@
 <?php
-require_once realpath(__DIR__.'/../config/app.php');
+require_once __DIR__.'/../config/app.php';
 
 function render($template,$data=[]){
     if($data){
