@@ -1,9 +1,10 @@
+<!--main header page-->
 <nav>
     <div class="navbar-center">
         <!-- navigation -->
         <div class="sm-nav md-nav tb-nav">
             <ul class="sm-brand md-brand tb-brand">
-                <li><img class="img-fluid" alt="" src="images/kindpng_625081.png"></li></ul>
+                <li><img class="img-fluid" alt="" src="/assets/images/kindpng_625081.png"></li></ul>
             <input id="hamburger" type="checkbox" class="trig_menu">
             <ul class="sm-links md-links tb-links">
                 <li><a href="/">Main</a></li>

@@ -1,11 +1,11 @@
 <div class="row">
-    <div class="tb-3">
-        <form class="text-center border p-5 m-auto" action="">
-            <h4 class="px-4 ">Contact us</h4>
+    <div class="tb-2">
+        <form class="text-center border m-auto" action="">
+            <h4 class="px-4">Contact us</h4>
             <div class="mb-1">
-                <label for="username"></label><input class="form-control text-center" type="text" name="username" value="" id="username" placeholder="Enter Your Name"></div>
+                <input class="form-control text-center" type="text" name="username" value="" id="username" placeholder="Enter Your Name"></div>
             <div class="mb-1">
-                <label for="email"></label><input class="form-control text-center" type="email" name="email" value="" id="email" placeholder="Enter Your Email">
+                <input class="form-control text-center" type="email" name="email" value="" id="email" placeholder="Enter Your Email">
             </div>
             <div class="form-control form-radio mb-1">
                 <label>
@@ -33,13 +33,12 @@
             <button type="submit" class="btn btn-dark btn-block">Send</button>
         </form>
     </div>
-    <div class="tb-3"><h2>~ here could be your advertise ~</h2></div>
-    <div class="tb-3 my-2">
-        <h4 class="px-4 ">Adress</h4>
-        <p class="border-dark">
-            Location	Mountain View, California, United States</br>
-            Coordinates	37.422°N 122.084°WCoordinates: 37.422°N 122.084°W</br>
-            Address	1600 Amphitheatre Parkway</br>
-            Mountain View, CA 94043</p>
+<!--    <div class="tb-2"><h2>~ here could be your advertise ~</h2></div>-->
+    <div class="tb-2 my-2 text-center">
+        <h4 class="px-4 border">Address</h4>
+        <div class="form-control text-dark mb-1"><label><i class="fas fa-university"></i>: <?=$address['country'];?></label></div>
+        <div class="form-control text-dark mb-1"><label><i class="fas fa-home"></i>:<?=$address['city'];?></label></div>
+        <div class="form-control text-dark mb-1"><label><a href="https://www.google.com.ua/maps/place/<?=$address['cords'];?>" target="_blank"><i class="fas fa-map-marker-alt"></i>:<?=$address['cords'];?></a></label></div>
+        <div class="form-control text-dark mb-1"><label><i class="fas fa-mail-bulk"></i>:<?=$address['post'];?></label></div>
     </div>
 </div>

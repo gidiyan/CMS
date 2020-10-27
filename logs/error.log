@@ -1,0 +1,171 @@
+[25-Oct-2020 10:16:34 Europe/Kiev] hello error
+[25-Oct-2020 10:16:34 Europe/Kiev] hello error
+[25-Oct-2020 11:02:26 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Contact US in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 5
+[25-Oct-2020 11:02:26 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Our Adress in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 5
+[25-Oct-2020 11:02:26 Europe/Kiev] PHP Notice:  Undefined variable: addressTitle in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 7
+[25-Oct-2020 11:02:26 Europe/Kiev] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 25
+[25-Oct-2020 11:03:12 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Contact US in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 5
+[25-Oct-2020 11:03:12 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Our Adress in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 5
+[25-Oct-2020 11:03:12 Europe/Kiev] PHP Notice:  Undefined variable: addressTitle in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 7
+[25-Oct-2020 11:03:12 Europe/Kiev] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 25
+[25-Oct-2020 11:04:36 Europe/Kiev] PHP Warning:  require_once(C:\xampp\htdocs\dogshop.me\config/..//app/Viewshome/_slider.php): failed to open stream: No such file or directory in C:\xampp\htdocs\dogshop.me\app\Views\home\index.php on line 3
+[25-Oct-2020 11:04:36 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required 'C:\xampp\htdocs\dogshop.me\config/..//app/Viewshome/_slider.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dogshop.me\app\Views\home\index.php on line 3
+[25-Oct-2020 11:05:53 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Contact US in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 5
+[25-Oct-2020 11:05:53 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Our Adress in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 5
+[25-Oct-2020 11:05:53 Europe/Kiev] PHP Notice:  Undefined variable: addressTitle in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 7
+[25-Oct-2020 11:05:53 Europe/Kiev] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 25
+[25-Oct-2020 11:07:15 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Contact US in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 5
+[25-Oct-2020 11:07:15 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Our Adress in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 5
+[25-Oct-2020 11:07:15 Europe/Kiev] PHP Notice:  Undefined variable: addressTitle in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 7
+[25-Oct-2020 11:07:15 Europe/Kiev] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 25
+[25-Oct-2020 11:08:13 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Contact US in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 5
+[25-Oct-2020 11:08:13 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Our Adress in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 5
+[25-Oct-2020 11:08:13 Europe/Kiev] PHP Notice:  Undefined variable: addressTitle in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 7
+[25-Oct-2020 11:08:13 Europe/Kiev] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 25
+[25-Oct-2020 11:08:48 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Contact US in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 4
+[25-Oct-2020 11:08:48 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Our Adress in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 4
+[25-Oct-2020 11:08:48 Europe/Kiev] PHP Notice:  Undefined variable: addressTitle in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 7
+[25-Oct-2020 11:08:48 Europe/Kiev] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 25
+[25-Oct-2020 11:10:12 Europe/Kiev] PHP Warning:  Use of undefined constant title - assumed 'title' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 4
+[25-Oct-2020 11:10:12 Europe/Kiev] PHP Warning:  Use of undefined constant addressTitle - assumed 'addressTitle' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 4
+[25-Oct-2020 11:10:39 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Contact US in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 4
+[25-Oct-2020 11:10:39 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Our Adress in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 4
+[25-Oct-2020 11:10:39 Europe/Kiev] PHP Notice:  Undefined variable: addressTitle in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 7
+[25-Oct-2020 11:10:39 Europe/Kiev] PHP Notice:  Undefined variable: title in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 25
+[25-Oct-2020 11:11:41 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Contact US in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 4
+[25-Oct-2020 11:11:41 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Our Adress in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 4
+[25-Oct-2020 11:13:53 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Contact US in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 5
+[25-Oct-2020 11:13:53 Europe/Kiev] PHP Notice:  compact(): Undefined variable: Our Adress in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 5
+[25-Oct-2020 12:07:25 Europe/Kiev] PHP Notice:  Array to string conversion in C:\xampp\htdocs\dogshop.me\app\Controllers\TestController.php on line 10
+[25-Oct-2020 12:13:53 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function config() in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php:7
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(44): include_once()
+#1 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 7
+[25-Oct-2020 12:14:34 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function config() in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php:7
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(44): include_once()
+#1 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 7
+[25-Oct-2020 12:15:15 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function config() in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php:7
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(44): include_once()
+#1 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 7
+[25-Oct-2020 12:54:08 Europe/Kiev] PHP Notice:  Undefined variable: url in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 28
+[25-Oct-2020 12:54:08 Europe/Kiev] PHP Warning:  file_put_contents(): Filename cannot be empty in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 28
+[25-Oct-2020 12:54:08 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 29
+[25-Oct-2020 12:56:51 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 12:58:53 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 7
+[25-Oct-2020 12:58:53 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 7
+[25-Oct-2020 12:58:53 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 8
+[25-Oct-2020 12:58:53 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 8
+[25-Oct-2020 12:58:53 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 9
+[25-Oct-2020 12:58:53 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 9
+[25-Oct-2020 12:58:53 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 10
+[25-Oct-2020 12:58:53 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 10
+[25-Oct-2020 12:58:53 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 11
+[25-Oct-2020 12:58:53 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 11
+[25-Oct-2020 12:59:02 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 7
+[25-Oct-2020 12:59:02 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 7
+[25-Oct-2020 12:59:02 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 8
+[25-Oct-2020 12:59:02 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 8
+[25-Oct-2020 12:59:02 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 9
+[25-Oct-2020 12:59:02 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 9
+[25-Oct-2020 12:59:02 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 10
+[25-Oct-2020 12:59:02 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 10
+[25-Oct-2020 12:59:02 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 11
+[25-Oct-2020 12:59:02 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 11
+[25-Oct-2020 12:59:13 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 7
+[25-Oct-2020 12:59:13 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 7
+[25-Oct-2020 12:59:13 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 8
+[25-Oct-2020 12:59:13 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 8
+[25-Oct-2020 12:59:13 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 9
+[25-Oct-2020 12:59:13 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 9
+[25-Oct-2020 12:59:13 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 10
+[25-Oct-2020 12:59:13 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 10
+[25-Oct-2020 12:59:13 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 11
+[25-Oct-2020 12:59:13 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 11
+[25-Oct-2020 13:00:39 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 7
+[25-Oct-2020 13:00:39 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 7
+[25-Oct-2020 13:00:39 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 8
+[25-Oct-2020 13:00:39 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 8
+[25-Oct-2020 13:00:39 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 9
+[25-Oct-2020 13:00:39 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 9
+[25-Oct-2020 13:00:39 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 10
+[25-Oct-2020 13:00:39 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 10
+[25-Oct-2020 13:00:39 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 11
+[25-Oct-2020 13:00:39 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 11
+[25-Oct-2020 13:01:27 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 7
+[25-Oct-2020 13:01:27 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 7
+[25-Oct-2020 13:01:45 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:01:59 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:02:03 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:02:07 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:02:18 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:02:47 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:03:12 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:04:23 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 38
+[25-Oct-2020 13:04:23 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 38
+[25-Oct-2020 13:04:23 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 39
+[25-Oct-2020 13:04:23 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 39
+[25-Oct-2020 13:04:23 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 40
+[25-Oct-2020 13:04:23 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 40
+[25-Oct-2020 13:04:23 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 41
+[25-Oct-2020 13:04:23 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 41
+[25-Oct-2020 13:04:23 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 42
+[25-Oct-2020 13:04:23 Europe/Kiev] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 42
+[25-Oct-2020 13:05:11 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:06:03 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:06:10 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:07:54 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:08:15 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:08:39 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:08:41 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:09:22 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\site.php:21) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[25-Oct-2020 13:10:50 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 09:59:22 Europe/Kiev] PHP Notice:  Undefined index: email in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 41
+[27-Oct-2020 10:33:32 Europe/Kiev] PHP Notice:  Undefined index: email in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 17
+[27-Oct-2020 10:33:32 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 10:35:57 Europe/Kiev] PHP Notice:  Undefined index: cords in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 9
+[27-Oct-2020 10:35:57 Europe/Kiev] PHP Notice:  Undefined index: post in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 10
+[27-Oct-2020 10:35:57 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 10:50:15 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 10:53:31 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 10:54:19 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 10:56:39 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 10:57:45 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_modal.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 10:58:02 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 10:59:31 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 10:59:54 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 11:00:17 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 11:00:20 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 11:00:21 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 11:12:46 Europe/Kiev] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\dogshop.me\app\Views\config\index.php on line 17
+[27-Oct-2020 11:12:52 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 11:12:54 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 11:15:23 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 11:15:25 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 11:17:22 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 11:17:39 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 31
+[27-Oct-2020 11:21:01 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function config() in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php:3
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(53): include_once()
+#1 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 3
+[27-Oct-2020 11:21:56 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 29
+[27-Oct-2020 11:23:02 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 29
+[27-Oct-2020 11:23:41 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 29
+[27-Oct-2020 11:24:42 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 29
+[27-Oct-2020 11:24:51 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 29
+[27-Oct-2020 11:25:36 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 29
+[27-Oct-2020 11:27:36 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 29
+[27-Oct-2020 11:32:37 Europe/Kiev] PHP Fatal error:  Cannot redeclare config() (previously declared in C:\xampp\htdocs\dogshop.me\bootstrap\app.php:12) in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 2
+[27-Oct-2020 11:34:43 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 25
+[27-Oct-2020 11:35:46 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 25
+[27-Oct-2020 11:37:14 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 25
+[27-Oct-2020 11:37:49 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_template.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 25

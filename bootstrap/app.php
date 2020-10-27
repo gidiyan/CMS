@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__.'/../config/app.php';
+require_once realpath(__DIR__.'/../config').'/app.php';
 
 function render($template,$data=[]){
     if($data){
@@ -7,6 +7,13 @@ function render($template,$data=[]){
     }
     $template .='.php';
     include_once VIEWS."/layouts/site.php";
+}
+
+function config($mix)
+{
+    $url = CONFIG . "/" . $mix . ".json";
+    $jsonFile = file_get_contents($url);
+    return json_decode($jsonFile, true);
 }
 
 function init(){
@@ -35,22 +42,25 @@ if(isset($_SERVER['REQUEST_URI']) && !empty($_SERVER['REQUEST_URI'])){
 
 init();
 setErrorLogging();
-//error_log("hello error");
 
 switch (getURI()) {
     case '':
-        include_once CONTROLLERS."/HomeController.php";
+        require_once CONTROLLERS."/HomeController.php";
         break;
     case 'contact':
-        include_once CONTROLLERS."/AboutController.php";
+        require_once CONTROLLERS."/AboutController.php";
         break;
     case 'blog':
-        include_once CONTROLLERS."/BlogController.php";
+        require_once CONTROLLERS."/BlogController.php";
         break;
     case 'shop':
-        include_once CONTROLLERS."/ShopController.php";
+        require_once CONTROLLERS."/ShopController.php";
+        break;
+    case 'config':
+        require_once  CONTROLLERS."/ConfigController.php";
         break;
     default:
         require_once  VIEWS."/errors/index.php";
         break;
 }
+?>
