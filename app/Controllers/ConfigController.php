@@ -6,6 +6,7 @@ render('/config/index',compact('title','address'));
 
 $url = CONFIG."/config.json";
 if ($_POST) {
+//блок на валидацию email , если в контакты добавлю
 //        try {
 //            $email = $_POST['email'];
 //            if (filter_var($email, FILTER_VALIDATE_EMAIL === false)) {

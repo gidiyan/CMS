@@ -16,24 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b8bc369-22ba-4733-b4c5-e70efb186608" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/app/Controllers/ConfigController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/config/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/partials/site/_modal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/partials/site/_template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/AboutController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/about/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/about/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/errors/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/errors/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/home/_slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/home/_slider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/site/_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/site/_footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/site/_nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/site/_nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/site.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-    </list>
+    <list default="true" id="8b8bc369-22ba-4733-b4c5-e70efb186608" name="Default Changelist" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +78,7 @@
       <workItem from="1603528929624" duration="24000" />
       <workItem from="1603528961140" duration="6927000" />
       <workItem from="1603609094887" duration="16348000" />
-      <workItem from="1603784264297" duration="7956000" />
+      <workItem from="1603784264297" duration="8297000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1603547847061</created>
@@ -118,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603612516301</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1603792587002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603792587002</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
