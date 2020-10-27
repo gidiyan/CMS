@@ -14,9 +14,10 @@
 <?php require_once  VIEWS. '/layouts/partials/site/_sidebar.php';?>
 <?php require_once VIEWS."/".$template?>
 <?php
-//    require_once  VIEWS. '/layouts/partials/site/_footer.php';
-//    require_once VIEWS.'/layouts/partials/site/_modal.php';
-//    require_once VIEWS.'/layouts/partials/site/_template.php';
+if(getURI()!=='config') {
+    require_once  VIEWS. '/layouts/partials/site/_footer.php';
+    require_once VIEWS.'/layouts/partials/site/_modal.php';
+    require_once VIEWS.'/layouts/partials/site/_template.php';}
     if(getURI()!=='contact' or getURI()!=='blog') {
     ?><script src="/assets/js/app.js"></script><?php
     }
