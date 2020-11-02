@@ -18,4 +18,4 @@
 <?php require_once VIEWS.'/layouts/partials/site/_template.php';?>
 </body>
 </html>
-<script src="/assets/js/app.js"></script>
+<?php require_once VIEWS.'/layouts/partials/site/_scripts.php';?>

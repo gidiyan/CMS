@@ -17,45 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b8bc369-22ba-4733-b4c5-e70efb186608" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Admin/DashboardController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/ErrorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_nav.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_script.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_scripts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_titles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/news.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/layouts/partials/site/_scripts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/AboutController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/ConfigController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/ConfigController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/ShopController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/ShopController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/about/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/about/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/blog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/blog/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/errors/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/errors/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/home/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/site/_head.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/site/_head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/site/_nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/site/_nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/layouts/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/site.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/backup.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +89,7 @@
       <workItem from="1603784264297" duration="9317000" />
       <workItem from="1603793860643" duration="216000" />
       <workItem from="1603794129378" duration="52000" />
-      <workItem from="1604130282445" duration="46126000" />
+      <workItem from="1604130282445" duration="56552000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1603547847061</created>
@@ -169,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603793292727</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first commit">
+      <created>1604314445551</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604314445551</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,10 +191,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603794164645" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1603793297455">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604314457775">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603793297455" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604314457775" />
     <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603547967440">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
