@@ -1,3 +1,9 @@
 <?php
-render('/shop/index');
-?>
+class ShopController
+{
+    public function index()
+{
+    render('/shop/index');
+}
+}
+

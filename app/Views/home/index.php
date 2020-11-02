@@ -11,7 +11,7 @@
     </div>
 </section>
 <!-- showcase -->
-<div class="products">
+<div class="products for_products">
     <section>
         <header class="titles">
             <h2>TOP PRODUCTS</h2>
@@ -20,6 +20,6 @@
         </div>
     </section>
 </div>
-<!--<script src="/assets/js/app.js"></script>-->
+
 
 

@@ -4,7 +4,7 @@
     <link href="/assets/css/effect.css" rel="stylesheet">
     <link href="/assets/css/modal.css" rel="stylesheet">
     <link href="/assets/css/form.css" rel="stylesheet">
-    <link href="/assets/css/backup.css" rel="stylesheet">
+    <link href="/assets/css/all.css" rel="stylesheet">
     <link href="/assets/css/animation.css" rel="stylesheet">
     <link href="/assets/css/sidebar.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">

@@ -1,3 +1,9 @@
 <?php
-render('/home/index');
-?>
+
+class HomeController
+{
+    public function index()
+    {
+        render('/home/index',['title'=>'Homepage']);
+    }
+}

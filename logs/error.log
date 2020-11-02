@@ -170,3 +170,53 @@ Stack trace:
 [27-Oct-2020 11:37:14 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 25
 [27-Oct-2020 11:37:49 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_template.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 25
 [27-Oct-2020 12:01:01 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 26
+[31-Oct-2020 10:25:53 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 26
+[31-Oct-2020 10:26:53 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 26
+[31-Oct-2020 10:26:59 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 26
+[31-Oct-2020 10:28:05 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 26
+[31-Oct-2020 12:56:13 Europe/Kiev] PHP Parse error:  syntax error, unexpected ',', expecting ']' in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 8
+[31-Oct-2020 12:57:01 Europe/Kiev] PHP Notice:  Undefined index: DB_USERNAME in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 8
+[31-Oct-2020 12:57:01 Europe/Kiev] PHP Notice:  Undefined index: DB_PASSWORD in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 8
+[31-Oct-2020 12:57:01 Europe/Kiev] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 8
+[31-Oct-2020 12:57:01 Europe/Kiev] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 10
+[31-Oct-2020 12:57:01 Europe/Kiev] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 11
+[31-Oct-2020 12:58:28 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 51
+[31-Oct-2020 12:58:28 Europe/Kiev] PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 51
+[31-Oct-2020 12:58:28 Europe/Kiev] PHP Notice:  Undefined offset: 2 in C:\xampp\htdocs\dogshop.me\app\Views\about\index.php on line 51
+[31-Oct-2020 13:36:11 Europe/Kiev] PHP Warning:  mysqli_connect(): (HY000/2002): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 8
+[31-Oct-2020 13:36:11 Europe/Kiev] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 24
+[31-Oct-2020 13:36:11 Europe/Kiev] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in C:\xampp\htdocs\dogshop.me\app\Controllers\AboutController.php on line 25
+[31-Oct-2020 13:41:03 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 26
+[31-Oct-2020 13:41:23 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 26
+[31-Oct-2020 13:42:09 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\site\_footer.php:1) in C:\xampp\htdocs\dogshop.me\app\Controllers\ConfigController.php on line 26
+[01-Nov-2020 10:18:07 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function getURI() in C:\xampp\htdocs\dogshop.me\bootstrap\app.php:42
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\bootstrap\app.php on line 42
+[01-Nov-2020 10:18:07 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function getURI() in C:\xampp\htdocs\dogshop.me\bootstrap\app.php:42
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\bootstrap\app.php on line 42
+[01-Nov-2020 10:27:49 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function getURI() in C:\xampp\htdocs\dogshop.me\bootstrap\app.php:42
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\bootstrap\app.php on line 42
+[01-Nov-2020 10:27:49 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function getURI() in C:\xampp\htdocs\dogshop.me\bootstrap\app.php:42
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\bootstrap\app.php on line 42
+[01-Nov-2020 10:27:51 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function getURI() in C:\xampp\htdocs\dogshop.me\bootstrap\app.php:42
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\bootstrap\app.php on line 42
+[01-Nov-2020 10:27:51 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function getURI() in C:\xampp\htdocs\dogshop.me\bootstrap\app.php:42
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\bootstrap\app.php on line 42

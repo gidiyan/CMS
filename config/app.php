@@ -5,4 +5,5 @@ const CONTROLLERS = ROOT."/app/Controllers";
 const LOGS =ROOT."/logs";
 const APP_ENV = 'dev';
 const CONFIG = ROOT.'/config';
+const COMMON =ROOT.'/common';
 ?>

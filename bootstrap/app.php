@@ -1,12 +1,13 @@
 <?php
 require_once realpath(__DIR__.'/../config').'/app.php';
+require_once COMMON.'/router.php';
 
-function render($template,$data=[]){
+function render($template,$data=[],$layout='site'){
     if($data){
         extract($data);
     }
     $template .='.php';
-    include_once VIEWS."/layouts/site.php";
+    include_once VIEWS."/layouts/${layout}.php";
 }
 
 function config($mix)
@@ -34,33 +35,10 @@ function setErrorLogging(){
     ini_set('error_log', LOGS.'/error.log');
 }
 
-function getURI(){
-if(isset($_SERVER['REQUEST_URI']) && !empty($_SERVER['REQUEST_URI'])){
-    return trim($_SERVER['REQUEST_URI'],'/');
-}
-}
+
 
 init();
 setErrorLogging();
 
-switch (getURI()) {
-    case '':
-        require_once CONTROLLERS."/HomeController.php";
-        break;
-    case 'contact':
-        require_once CONTROLLERS."/AboutController.php";
-        break;
-    case 'blog':
-        require_once CONTROLLERS."/BlogController.php";
-        break;
-    case 'shop':
-        require_once CONTROLLERS."/ShopController.php";
-        break;
-    case 'config':
-        require_once  CONTROLLERS."/ConfigController.php";
-        break;
-    default:
-        require_once  VIEWS."/errors/index.php";
-        break;
-}
+
 ?>

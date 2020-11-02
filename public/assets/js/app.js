@@ -1,35 +1,42 @@
 "use strict"
 
 class Storage {
-    static saveStorageItem(key,item){
+    static saveStorageItem(key, item) {
         localStorage.setItem(key, JSON.stringify(item));
     }
-    static saveProducts(product){
+
+    static saveProducts(product) {
         localStorage.setItem('products', JSON.stringify(products));
     }
-    static saveCart(cart){
+
+    static saveCart(cart) {
         localStorage.setItem('cart', JSON.stringify(cart));
     }
-    static getCart(){
-        return localStorage.getItem('cart')?JSON.parse(localStorage.getItem('cart')):[];
+
+    static getCart() {
+        return localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [];
     }
-    static getProduct(id){
-        let products =JSON.parse(localStorage.getItem('products'));
+
+    static getProduct(id) {
+        let products = JSON.parse(localStorage.getItem('products'));
         return products.find(product => product.id === +(id));
     }
-    static getProducts(){
+
+    static getProducts() {
         return JSON.parse(localStorage.getItem('products'));
     }
-    static getCategories(){
+
+    static getCategories() {
         return JSON.parse(localStorage.getItem('categories'));
     }
-    static getSubCategories(){
+
+    static getSubCategories() {
         return JSON.parse(localStorage.getItem('subcategories'));
     }
 }
 
 class Product {
-    makeModel(products){
+    makeModel(products) {
         return products.map(item => {
             const id = item.id;
             const name = item.name;
@@ -37,28 +44,29 @@ class Product {
             const img = item.img;
             const category = item.category;
             const subcategory = item.subcategory;
-            return {id,name,price,img,category,subcategory};
+            return {id, name, price, img, category, subcategory};
         });
     }
 }
 
 class Category {
-    makeModel(categories){
+    makeModel(categories) {
         return categories.map(item => {
             const id = item.id;
             const name = item.name;
             const img = item.img;
-            return {id,name,img};
+            return {id, name, img};
         });
     }
 }
+
 class SubCategory {
-    makeModel(subcategories){
+    makeModel(subcategories) {
         return subcategories.map(item => {
             const id = item.id;
             const name = item.name;
             const img = item.img;
-            return {id,name,img};
+            return {id, name, img};
         });
     }
 }
@@ -70,6 +78,7 @@ class App {
     cartTotal = document.querySelector('.cart-total');
     countItems = document.querySelector('.count-items-in-cart');
     sidebar = document.querySelector('.sidebar');
+
     constructor() {
         const closeBTN = document.querySelector('.close-btn');
         const show_cart = document.querySelector('.fa-dolly-flatbed');
@@ -102,14 +111,16 @@ class App {
             let result = '';
             for (let i = 0; i < 4; i++) {
                 result += this.createProduct(products[i]);
-            } document.querySelector('.showcase').innerHTML = result;
+            }
+            document.querySelector('.showcase').innerHTML = result;
         } else {
-        let result = '';
-        products.forEach(item => {
-            result += this.createProduct(item);
-        });
-        document.querySelector('.showcase').innerHTML = result;
-    }}
+            let result = '';
+            products.forEach(item => {
+                result += this.createProduct(item);
+            });
+            document.querySelector('.showcase').innerHTML = result;
+        }
+    }
 
     CreateCartItem(item) {
         const div = document.createElement('div');
@@ -147,15 +158,15 @@ class App {
             button.addEventListener('click', event => {
                 let product = this.getProduct(event.target.closest('.product').getAttribute('data-id'));
                 let incart = this.cart.some(elem => elem.id === product.id);
-                if(incart){
+                if (incart) {
                     this.cart.forEach(elem => {
-                        if(elem.id === product.id){
+                        if (elem.id === product.id) {
                             elem.amount += 1;
                             Storage.saveCart(this.cart);
                         }
-                    })}
-                else {
-                    let cartItem = { ...product, amount: 1 };
+                    })
+                } else {
+                    let cartItem = {...product, amount: 1};
                     this.cart = [...this.cart, cartItem];
                     +countItemsInCart.textContent++;
                     if (+(countItemsInCart.textContent) > 0) {
@@ -185,16 +196,16 @@ class App {
     actualNavCartCount(cartId) {
         const toClear = document.querySelectorAll('.product');
         const countItemsInCart = document.querySelector('.count-items-in-cart');
-                        +countItemsInCart.textContent--;
-                        if (+(countItemsInCart.textContent) > 0) {
-                            countItemsInCart.classList.add('notempty');
-                        } else {
-                            countItemsInCart.classList.remove('notempty');
-                            countItemsInCart.innerHTML = "";
-                        }
-                        this.setcartTotal(this.cart);
-                        Storage.saveCart(this.cart);
-                    }
+        +countItemsInCart.textContent--;
+        if (+(countItemsInCart.textContent) > 0) {
+            countItemsInCart.classList.add('notempty');
+        } else {
+            countItemsInCart.classList.remove('notempty');
+            countItemsInCart.innerHTML = "";
+        }
+        this.setcartTotal(this.cart);
+        Storage.saveCart(this.cart);
+    }
 
     renderCart() {
         this.clearCart.addEventListener('click', () => this.clearcart());
@@ -259,13 +270,13 @@ class App {
             this.cartItems.querySelector(`#id${item.id} .product-subtotal`).textContent = parseFloat(tmpTotal.toFixed(2));
         });
         this.cartTotal.textContent = parseFloat(cart.reduce((previous, current) => previous + current.price * current.amount, 0).toFixed(2));
-        this.countItems.textContent = cart.reduce((previous,currnet) => previous+currnet.amount,0);
+        this.countItems.textContent = cart.reduce((previous, currnet) => previous + currnet.amount, 0);
     }
 
     opencart() {
         this.sidebar.classList.toggle("show-sidebar");
         document.querySelector('.over').classList.add('active')
-        this.cartItems.innerHTML='';
+        this.cartItems.innerHTML = '';
         this.cart = Storage.getCart();
         this.populateCart(this.cart);
         this.setcartTotal(this.cart);
@@ -353,23 +364,28 @@ class App {
         }
     }
 
-    compareValue(key,order = 'asc'){
-        return function innerSort(a,b) {
-            if(!a.hasOwnProperty(key) || (!b.hasOwnProperty(key))) {
+    compareValue(key, order = 'asc') {
+        return function innerSort(a, b) {
+            if (!a.hasOwnProperty(key) || (!b.hasOwnProperty(key))) {
                 return 0;
             }
-            const varA= (typeof a[key] === 'string') ? a[key].toUpperCase():a[key];
-            const varB= (typeof b[key] === 'string') ? b[key].toUpperCase():b[key];
-            let comparison =0;
-            if (varA>varB){comparison=1;} else if (varA<varB) {comparison=-1;} return ((order==='desc')?(comparison*(-1)):comparison);
+            const varA = (typeof a[key] === 'string') ? a[key].toUpperCase() : a[key];
+            const varB = (typeof b[key] === 'string') ? b[key].toUpperCase() : b[key];
+            let comparison = 0;
+            if (varA > varB) {
+                comparison = 1;
+            } else if (varA < varB) {
+                comparison = -1;
+            }
+            return ((order === 'desc') ? (comparison * (-1)) : comparison);
         }
     };
 
     fetchDATA(dataBase, model) {
-        const baseUrl =`https://my-json-server.typicode.com/gidiyan/db/${dataBase}`;
+        const baseUrl = `https://my-json-server.typicode.com/gidiyan/db/${dataBase}`;
         fetch(baseUrl)
             .then(response => {
-                if(response.status !== 200) {
+                if (response.status !== 200) {
                     console.error(`Looks like there was a problem. Status code: ${response.status}`);
                     return;
                 }
@@ -382,7 +398,7 @@ class App {
 
 }
 
-(function(){
+(function () {
     const app = new App();
     if (document.querySelector('.categoriesShow')) {
         app.fetchDATA("categories", new Category());
@@ -391,11 +407,15 @@ class App {
         app.categoriesList(Storage.getSubCategories());
     }
     app.fetchDATA('products', new Product());
-    app.makeShowcase(Storage.getProducts());
+    if (document.querySelector('.no_goods')) {
+    } else {
+        app.makeShowcase(Storage.getProducts());
+        app.renderCategory();
+        app.categoriesList();
+        app.selectPicker();
+    }
     app.addProductToCart();
     app.renderCart();
     app.testlike();
-    app.renderCategory();
-    app.categoriesList();
-    app.selectPicker();
+
 })();

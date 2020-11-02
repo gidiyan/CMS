@@ -9,7 +9,7 @@
             <ul class="sm-links md-links tb-links">
                 <li><a href="/">Main</a></li>
                 <li><a href="/shop">Shop</a></li>
-                <li><a href="/blog">News</a></li>
+                <li><a href="/blog">Blog</a></li>
                 <li><a href="/contact">Contacts</a></li>
             </ul>
 
