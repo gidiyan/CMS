@@ -417,5 +417,4 @@ class App {
     app.addProductToCart();
     app.renderCart();
     app.testlike();
-
 })();

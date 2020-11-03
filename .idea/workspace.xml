@@ -17,9 +17,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b8bc369-22ba-4733-b4c5-e70efb186608" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/partials/site/_scripts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/about/_address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/about/_form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/blog/_messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/blog/_news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/about/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/about/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/blog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/blog/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/site/_scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/site/_scripts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Views/layouts/partials/admin" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/kayako-php-api-library-master/kayako-php-api-library-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -89,7 +96,8 @@
       <workItem from="1603784264297" duration="9317000" />
       <workItem from="1603793860643" duration="216000" />
       <workItem from="1603794129378" duration="52000" />
-      <workItem from="1604130282445" duration="56552000" />
+      <workItem from="1604130282445" duration="58850000" />
+      <workItem from="1604387293645" duration="6581000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1603547847061</created>
@@ -140,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604314445551</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="first commit">
+      <created>1604337391239</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604337391239</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,18 +198,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="427" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604226028469" />
-    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1604226180834">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604395612378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604226180834" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604395612378" />
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1604387437238">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604387437238" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1603794164645">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603794164645" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604314457775">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604337396660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604314457775" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604337396660" />
     <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603547967440">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
