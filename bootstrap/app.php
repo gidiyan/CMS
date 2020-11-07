@@ -1,14 +1,7 @@
 <?php
-require_once realpath(__DIR__.'/../config').'/app.php';
-require_once COMMON.'/router.php';
+require_once realpath(__DIR__ . '/../config') . '/app.php';
 
-function render($template,$data=[],$layout='site'){
-    if($data){
-        extract($data);
-    }
-    $template .='.php';
-    include_once VIEWS."/layouts/${layout}.php";
-}
+
 
 function config($mix)
 {
@@ -17,28 +10,7 @@ function config($mix)
     return json_decode($jsonFile, true);
 }
 
-function init(){
-    date_default_timezone_set('Europe/Kiev');
-    setlocale(LC_ALL,'uk_UA');
-}
+require_once COMMON . '/App.php';
+$app = new App();
+$app->run();
 
-function setErrorLogging(){
-    if(APP_ENV == 'dev'){
-        ini_set('display_startup_errors',1);
-        error_reporting(E_ALL|E_WARNING|E_PARSE|E_NOTICE|E_DEPRECATED);
-        ini_set('display_errors',1);
-    } else {
-        error_reporting(E_ALL);
-        ini_set('display_errors',0);
-    }
-    ini_set('log_errors',1);
-    ini_set('error_log', LOGS.'/error.log');
-}
-
-
-
-init();
-setErrorLogging();
-
-
-?>

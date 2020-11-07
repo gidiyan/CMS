@@ -2,7 +2,7 @@
     <div class="sidebar-sticky pt-3">
         <ul class="tb-nav flex-column">
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/admin">
                     <span data-feather="home"></span>
                     Dashboard
                     <span class="sr-only">(current)</span>
@@ -12,6 +12,12 @@
                 <a class="nav-link" href="#">
                     <span data-feather="file"></span>
                     Orders
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/admin/categories">
+                    <span data-feather="file"></span>
+                    Categories
                 </a>
             </li>
             <li class="nav-item">

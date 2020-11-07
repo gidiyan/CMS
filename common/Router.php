@@ -1,10 +1,4 @@
 <?php
-function getURI()
-{
-    if (isset($_SERVER['REQUEST_URI']) && !empty($_SERVER['REQUEST_URI'])) {
-        return trim($_SERVER['REQUEST_URI'], '/');
-    }
-}
 
 $result = null;
 try {
@@ -37,7 +31,7 @@ function initController($controllerPath, $controller, $action, $result = null)
 }
 
 foreach ($routes as $key => $value) {
-    if ($key == getURI()) {
+    if ($key == $this->request->uri()) {
         $result = initController(...getController($value));
         break;
     }

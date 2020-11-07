@@ -220,3 +220,192 @@ Stack trace:
 #0 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once()
 #1 {main}
   thrown in C:\xampp\htdocs\dogshop.me\bootstrap\app.php on line 42
+[07-Nov-2020 13:02:56 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:02:56 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:02:58 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:02:58 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:02:59 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:02:59 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:03:03 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 24
+[07-Nov-2020 13:03:03 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:03:03 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:03:04 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:03:04 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:03:08 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 24
+[07-Nov-2020 13:03:08 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:03:08 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:07:54 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:07:54 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:07:55 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:08:23 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:08:26 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 24
+[07-Nov-2020 13:08:26 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:09:19 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:09:22 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 25
+[07-Nov-2020 13:09:22 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:09:23 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:09:26 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:09:29 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 25
+[07-Nov-2020 13:09:29 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6
+[07-Nov-2020 13:10:14 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php:6
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(43): ErrorController->index()
+#1 C:\xampp\htdocs\dogshop.me\common\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#3 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\ErrorController.php on line 6

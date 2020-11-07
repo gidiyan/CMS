@@ -6,4 +6,6 @@ const LOGS =ROOT."/logs";
 const APP_ENV = 'dev';
 const CONFIG = ROOT.'/config';
 const COMMON =ROOT.'/common';
+const DB_CONFIG_FILE = CONFIG.'/db.php';
+const MODELS = ROOT.'/app/Models';
 ?>
