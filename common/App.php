@@ -1,5 +1,6 @@
 <?php
 require_once COMMON . '/Request.php';
+require_once COMMON . '/Router.php';
 
 class App
 {
@@ -34,7 +35,8 @@ class App
     {
         $this->init();
         $this->setErrorLogging();
-        require_once COMMON . '/Router.php';
+        //create instance router
+        (new Router($this->request))->run();
     }
 
 

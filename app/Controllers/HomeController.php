@@ -1,9 +1,11 @@
 <?php
+require_once COMMON . '/Controller.php';
 
-class HomeController
+
+class HomeController extends Controller
 {
     public function index()
     {
-        render('/home/index',['title'=>'Homepage']);
+        $this->view->render('/home/index', ['title' => 'Homepage']);
     }
 }

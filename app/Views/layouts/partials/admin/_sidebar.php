@@ -9,9 +9,9 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/admin/guestbook">
                     <span data-feather="file"></span>
-                    Orders
+                    Guestbook
                 </a>
             </li>
             <li class="nav-item">

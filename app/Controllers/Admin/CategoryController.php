@@ -1,8 +1,8 @@
 <?php
 //CRUD API resource controller
 require_once COMMON . '/Controller.php';
-require_once COMMON.'/Request.php';
-require_once MODELS.'/Category.php';
+require_once COMMON . '/Request.php';
+require_once MODELS . '/Category.php';
 
 
 class CategoryController extends Controller
@@ -11,7 +11,7 @@ class CategoryController extends Controller
     {
         $title = "Categories List";
         $categories = (new Category())->all();
-        $this->view->render('admin/categories/index', compact('title','categories'), 'admin');
+        $this->view->render('admin/categories/index', compact('title', 'categories'), 'admin');
     }
 
     public function create()
@@ -23,28 +23,46 @@ class CategoryController extends Controller
     public function store()
     {
         $status = $this->request->data['status'] ? 1:0;
-        (new Category())->store($this->request->data['name'],$status);
+        (new Category())->store(["name"=>$this->request->data['name'], 'status'=>$status]);
         return header('Location: /admin/categories');
     }
 
-    public function show()
+    public function show($vars)
     {
-
+        extract($vars);
+        $title = "Category Detail";
+        $category = (new Category())->getByPK($id);
+        $this->view->render('admin/categories/show', compact('title','category'), 'admin');
     }
 
-    public function edit()
+    public function edit($vars)
     {
-
+        extract($vars);
+        $title = "Category Edit";
+        $category = (new Category())->getByPK($id);
+        $this->view->render('admin/categories/edit', compact('title','category'), 'admin');
     }
 
     public function update()
     {
-
+        $status = $this->request->data['status'] ? 1 : 0;
+        (new Category())->update($this->request->data['id'],['name'=>$this->request->data['name'], 'status'=>$status]);
+        return header('Location: /admin/categories');
     }
 
-    public function destroy()
+    public function destroy($vars)
     {
-
+        $title = "Category Delete";
+        extract($vars);
+        if(isset($_POST['submit'])){
+            (new Category())->destroy($id);
+            return header('Location: /admin/categories');
+        }elseif (isset($_POST['reset'])){
+            var_dump($_POST);
+            return header('Location: /admin/categories');
+        }
+        $category = (new Category())->getByPK($id);
+        $this->view->render('admin/categories/delete', compact('title','category'), 'admin');
     }
 
 }

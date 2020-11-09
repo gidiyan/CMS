@@ -1,8 +1,10 @@
 <?php
-class ErrorController
+require_once COMMON . '/Controller.php';
+
+class ErrorController extends Controller
 {
-    public function index()
+    public function notFound()
     {
-        render('/errors/index');
+        $this->view->render('/errors/index', ['title' => 'Not Found']);
     }
 }

@@ -9,7 +9,7 @@
             </div>
             <label class="text-col-5 text_uppercase" for="">Subject:</label>
             <select name="subject" class="form-select" id="">
-                <option class="text-uppercase" value="" disabled>Choose options</option>
+                <option class="text-uppercase" value="" disabled selected>Choose options</option>
                 <option  class="text-uppercase" value="Feedback">Feedback</option>
                 <option  class="text-uppercase" value="Report">Report a bug</option>
                 <option  class="text-uppercase" value="Request">Feater request</option>

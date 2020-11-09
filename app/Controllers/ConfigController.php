@@ -1,13 +1,14 @@
 <?php
+require_once COMMON . '/Controller.php';
 
-class ConfigController
+class ConfigController extends Controller
 {
     public function index()
     {
         $title = 'Edit Config';
         $address = config('config');
         $this->getNewAddress();
-        render('/config/index', compact('title', 'address'));
+        $this->view->render('/config/index', compact('title', 'address'));
     }
 
     public function getNewAddress()

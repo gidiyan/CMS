@@ -4,8 +4,8 @@
         <div class="card-body">
             <?php
             if (isset($messages)):
-                foreach ($messages as $key => $value) {
-                    echo "<p> User " . $value['username'] . " post with this " . $value['subject'] . " message " . $value['message'] . " at " . $value['created_at'] . "</p>";
+                foreach ($messages as $message) {
+                    echo "<p> User " . $message->username . " post with this " . $message->subject . " message " . $message->message . " at " . $message->created_at . "</p>";
                 }
             endif;
             ?>

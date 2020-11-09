@@ -1,44 +1,51 @@
 <?php
 
-$result = null;
-try {
-    $routes = require_once CONFIG . '/routes.php';
-} catch (Exception $e) {
-    error_log($e->getMessage());
-}
-function getController($path)
+class Router
 {
-    $segments = explode('\\', $path);
-    list($controller, $action) = explode('@', array_pop($segments));
-    $controllerPath = '/';
-    foreach ($segments as $segment) {
-        $controllerPath .= $segment . '/';
-    }
-    return [$controllerPath, $controller, $action];
-}
+    public $request;
+    protected $routes = ROUTES;
 
-function initController($controllerPath, $controller, $action, $result = null)
-{
-    $controllerPath = CONTROLLERS . $controllerPath . $controller . '.php';
-    if (file_exists($controllerPath)) {
-        include_once $controllerPath;
-        $controller = new $controller();
-        $controller->$action();
-        $result = true;
-
+    public function __construct(Request $request)
+    {
+        $this->request = $request !== null ? $request : new Request();
     }
-    return $result;
-}
 
-foreach ($routes as $key => $value) {
-    if ($key == $this->request->uri()) {
-        $result = initController(...getController($value));
-        break;
+    private function getController($path)
+    {
+        $segments = explode('\\', $path);
+        list($controller, $action) = explode('@', array_pop($segments));
+        $controllerPath = '/';
+        foreach ($segments as $segment) {
+            $controllerPath .= $segment . '/';
+        }
+        return [$controllerPath, $controller, $action];
     }
-}
-if ($result == null) {
-    $controller = 'ErrorController';
-    include_once CONTROLLERS . '/ErrorController.php';
-    $controller = new $controller();
-    $controller->index();
+
+    private function init($controllerPath, $controller, $action, $vars=[])
+    {
+        $controllerPath = CONTROLLERS . $controllerPath . $controller . '.php';
+        if (file_exists($controllerPath)) {
+            include_once $controllerPath;
+            $controller = new $controller();
+        }
+        return $controller->$action($vars);
+    }
+
+    public function run()
+    {
+        if (array_key_exists($this->request->uri(), $this->routes)) {
+            return $this->init(...$this->getController($this->routes[$this->request->uri()]));
+        } else {
+            foreach ($this->routes as $key => $value) {
+              $pattern =  "@^".preg_replace('/{([a-zA-Z0-9]+)}/','(?<$1>[0-9]+)',$key)."$@";
+              preg_match($pattern,$this->request->uri(),$matches);
+              if($matches){
+                  $arr = $this->getController($value);
+                  $arr[] = $matches;
+                  return $this->init(...$arr);
+              }
+            }
+        }
+        return $this->init(...$this->getController($this->routes['404']));
+    }
 }
