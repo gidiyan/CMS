@@ -1408,3 +1408,419 @@ Stack trace:
 #4 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\GuestbookController.php(13): Model->__construct()
 #5 C:\xampp\htdocs\dogshop.me\common\Router.php(31): GuestbookController->index(Array)
 #6 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', in C:\xampp\htdocs\dogshop.me\common\Connection.php on line 45
+[11-Nov-2020 09:36:22 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class 'Brand' not found in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\BrandController.php:13
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(31): BrandController->index(Array)
+#1 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(BrandController), 'index')
+#2 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#3 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#4 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\BrandController.php on line 13
+[11-Nov-2020 09:36:39 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class 'Brand' not found in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\BrandController.php:13
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(31): BrandController->index(Array)
+#1 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(BrandController), 'index')
+#2 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#3 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#4 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\BrandController.php on line 13
+[11-Nov-2020 09:36:44 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class 'Brand' not found in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\BrandController.php:13
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(31): BrandController->index(Array)
+#1 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(BrandController), 'index')
+#2 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#3 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#4 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\BrandController.php on line 13
+[11-Nov-2020 09:38:02 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\BrandController.php on line 25
+[11-Nov-2020 09:38:15 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\BrandController.php on line 25
+[11-Nov-2020 10:03:27 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\create.php on line 16
+[11-Nov-2020 10:03:27 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\create.php on line 16
+[11-Nov-2020 10:04:25 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\create.php on line 16
+[11-Nov-2020 10:04:25 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\create.php on line 16
+[11-Nov-2020 10:16:47 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class 'Brand' not found in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php:22
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->create(Array)
+#1 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'create')
+#2 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#3 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#4 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 22
+[11-Nov-2020 10:30:49 Europe/Kiev] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE) in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 31
+[11-Nov-2020 10:34:44 Europe/Kiev] PHP Notice:  Undefined index: brand_id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 32
+[11-Nov-2020 10:34:44 Europe/Kiev] PHP Notice:  Undefined index: category_id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 33
+[11-Nov-2020 10:34:44 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'new' in 'field list' in C:\xampp\htdocs\dogshop.me\common\Model.php:35
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(35): PDO->prepare('INSERT INTO pro...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(34): Model->store(Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->store(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'store')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 35
+[11-Nov-2020 10:36:21 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 29
+[11-Nov-2020 10:36:22 Europe/Kiev] PHP Notice:  Undefined index: brand_id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 32
+[11-Nov-2020 10:36:22 Europe/Kiev] PHP Notice:  Undefined index: category_id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 33
+[11-Nov-2020 10:36:22 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'new' in 'field list' in C:\xampp\htdocs\dogshop.me\common\Model.php:35
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(35): PDO->prepare('INSERT INTO pro...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(34): Model->store(Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->store(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'store')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 35
+[11-Nov-2020 10:42:11 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'new' in 'field list' in C:\xampp\htdocs\dogshop.me\common\Model.php:35
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(35): PDO->prepare('INSERT INTO pro...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(34): Model->store(Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->store(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'store')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 35
+[11-Nov-2020 10:57:17 Europe/Kiev] PHP Notice:  Undefined variable: brand in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 11
+[11-Nov-2020 10:57:17 Europe/Kiev] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 11
+[11-Nov-2020 10:57:17 Europe/Kiev] PHP Notice:  Undefined variable: brand in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 16
+[11-Nov-2020 10:57:17 Europe/Kiev] PHP Notice:  Trying to get property 'status' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 16
+[11-Nov-2020 10:57:56 Europe/Kiev] PHP Notice:  Undefined variable: brand in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 11
+[11-Nov-2020 10:57:56 Europe/Kiev] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 11
+[11-Nov-2020 10:57:56 Europe/Kiev] PHP Notice:  Undefined variable: brand in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 16
+[11-Nov-2020 10:57:56 Europe/Kiev] PHP Notice:  Trying to get property 'status' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 16
+[11-Nov-2020 10:59:07 Europe/Kiev] PHP Notice:  Undefined variable: brand in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 11
+[11-Nov-2020 10:59:07 Europe/Kiev] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 11
+[11-Nov-2020 10:59:07 Europe/Kiev] PHP Notice:  Undefined variable: brand in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 16
+[11-Nov-2020 10:59:07 Europe/Kiev] PHP Notice:  Trying to get property 'status' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 16
+[11-Nov-2020 11:03:26 Europe/Kiev] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 17
+[11-Nov-2020 11:03:26 Europe/Kiev] PHP Notice:  Trying to get property 'id' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 17
+[11-Nov-2020 11:03:26 Europe/Kiev] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 18
+[11-Nov-2020 11:03:26 Europe/Kiev] PHP Notice:  Trying to get property 'id' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 18
+[11-Nov-2020 11:03:26 Europe/Kiev] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 18
+[11-Nov-2020 11:03:26 Europe/Kiev] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 18
+[11-Nov-2020 11:03:26 Europe/Kiev] PHP Notice:  Undefined variable: brands in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 26
+[11-Nov-2020 11:03:26 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 26
+[11-Nov-2020 11:05:16 Europe/Kiev] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 19
+[11-Nov-2020 11:05:16 Europe/Kiev] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 19
+[11-Nov-2020 11:05:16 Europe/Kiev] PHP Notice:  Undefined variable: brands in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 27
+[11-Nov-2020 11:05:16 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 27
+[11-Nov-2020 11:11:00 Europe/Kiev] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 58
+[11-Nov-2020 11:11:40 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 18
+[11-Nov-2020 11:11:40 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 18
+[11-Nov-2020 11:11:40 Europe/Kiev] PHP Notice:  Undefined variable: brands in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 32
+[11-Nov-2020 11:11:40 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 32
+[11-Nov-2020 11:12:16 Europe/Kiev] PHP Notice:  compact(): Undefined variable: productcategories in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 45
+[11-Nov-2020 11:12:16 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 11
+[11-Nov-2020 11:12:16 Europe/Kiev] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 11
+[11-Nov-2020 11:12:16 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 16
+[11-Nov-2020 11:12:16 Europe/Kiev] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 16
+[11-Nov-2020 11:12:16 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 18
+[11-Nov-2020 11:12:16 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 18
+[11-Nov-2020 11:12:16 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 55
+[11-Nov-2020 11:12:16 Europe/Kiev] PHP Notice:  Trying to get property 'status' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 55
+[11-Nov-2020 11:12:54 Europe/Kiev] PHP Notice:  compact(): Undefined variable: productcategories in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 45
+[11-Nov-2020 11:12:54 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 11
+[11-Nov-2020 11:12:54 Europe/Kiev] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 11
+[11-Nov-2020 11:12:54 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 16
+[11-Nov-2020 11:12:54 Europe/Kiev] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 16
+[11-Nov-2020 11:12:54 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 18
+[11-Nov-2020 11:12:54 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 18
+[11-Nov-2020 11:12:54 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 55
+[11-Nov-2020 11:12:54 Europe/Kiev] PHP Notice:  Trying to get property 'status' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 55
+[11-Nov-2020 11:27:42 Europe/Kiev] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 17
+[11-Nov-2020 11:45:52 Europe/Kiev] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 56
+[11-Nov-2020 11:46:40 Europe/Kiev] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 56
+[11-Nov-2020 11:49:02 Europe/Kiev] PHP Notice:  Undefined property: stdClass::$new in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 41
+[11-Nov-2020 11:49:24 Europe/Kiev] PHP Notice:  Undefined property: stdClass::$new in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 42
+[11-Nov-2020 11:49:44 Europe/Kiev] PHP Notice:  Undefined property: stdClass::$new in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\show.php on line 42
+[11-Nov-2020 12:16:12 Europe/Kiev] PHP Notice:  Undefined variable: brand in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 10
+[11-Nov-2020 12:16:12 Europe/Kiev] PHP Notice:  Trying to get property 'id' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 10
+[11-Nov-2020 12:16:12 Europe/Kiev] PHP Notice:  Undefined variable: brand in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 14
+[11-Nov-2020 12:16:12 Europe/Kiev] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 14
+[11-Nov-2020 12:16:12 Europe/Kiev] PHP Notice:  Undefined variable: brand in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 19
+[11-Nov-2020 12:16:12 Europe/Kiev] PHP Notice:  Trying to get property 'status' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 19
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 11
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 11
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 17
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Trying to get property 'category_id' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 17
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 27
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Trying to get property 'brand_id' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 27
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 34
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Trying to get property 'price' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 34
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 37
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Trying to get property 'description' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 37
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 42
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Trying to get property 'is_new' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 42
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 46
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Trying to get property 'is_recommended' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 46
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Undefined variable: product in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 50
+[11-Nov-2020 12:16:33 Europe/Kiev] PHP Notice:  Trying to get property 'status' of non-object in C:\xampp\htdocs\dogshop.me\app\Views\admin\categories\edit.php on line 50
+[11-Nov-2020 12:20:36 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 17
+[11-Nov-2020 12:20:36 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 17
+[11-Nov-2020 12:20:36 Europe/Kiev] PHP Notice:  Undefined variable: brands in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 27
+[11-Nov-2020 12:20:36 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 27
+[11-Nov-2020 12:21:32 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:21:32 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:21:32 Europe/Kiev] PHP Notice:  Undefined index: brand_id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 54
+[11-Nov-2020 12:21:32 Europe/Kiev] PHP Notice:  Undefined index: category_id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 55
+[11-Nov-2020 12:21:32 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 17
+[11-Nov-2020 12:21:32 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 17
+[11-Nov-2020 12:21:32 Europe/Kiev] PHP Notice:  Undefined variable: brands in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 27
+[11-Nov-2020 12:21:32 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 27
+[11-Nov-2020 12:22:32 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:22:32 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:22:32 Europe/Kiev] PHP Notice:  Undefined index: brand_id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 54
+[11-Nov-2020 12:22:32 Europe/Kiev] PHP Notice:  Undefined index: category_id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 55
+[11-Nov-2020 12:22:32 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 17
+[11-Nov-2020 12:22:32 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 17
+[11-Nov-2020 12:22:32 Europe/Kiev] PHP Notice:  Undefined variable: brands in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 28
+[11-Nov-2020 12:22:32 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 28
+[11-Nov-2020 12:22:53 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:22:53 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:22:53 Europe/Kiev] PHP Notice:  Undefined index: brand_id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 54
+[11-Nov-2020 12:22:53 Europe/Kiev] PHP Notice:  Undefined index: category_id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 55
+[11-Nov-2020 12:22:53 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 17
+[11-Nov-2020 12:22:53 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 17
+[11-Nov-2020 12:22:53 Europe/Kiev] PHP Notice:  Undefined variable: brands in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 28
+[11-Nov-2020 12:22:53 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 28
+[11-Nov-2020 12:23:24 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:23:24 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:24:55 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:24:55 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:25:48 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:25:48 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:25:48 Europe/Kiev] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 61
+[11-Nov-2020 12:26:05 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:26:05 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:26:05 Europe/Kiev] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 61
+[11-Nov-2020 12:26:33 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:26:33 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:26:33 Europe/Kiev] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 61
+[11-Nov-2020 12:26:43 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:26:43 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:26:43 Europe/Kiev] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 61
+[11-Nov-2020 12:26:52 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:26:52 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:26:52 Europe/Kiev] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\edit.php on line 61
+[11-Nov-2020 12:27:36 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:27:36 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:29:00 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:29:00 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:29:42 Europe/Kiev] PHP Notice:  Undefined index: is_new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:29:42 Europe/Kiev] PHP Notice:  Undefined index: is_recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:31:08 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:31:08 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:31:53 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:31:53 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:33:42 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 52
+[11-Nov-2020 12:33:42 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 53
+[11-Nov-2020 12:34:01 Europe/Kiev] PHP Notice:  compact(): Undefined variable: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 57
+[11-Nov-2020 12:34:01 Europe/Kiev] PHP Notice:  compact(): Undefined variable: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 57
+[11-Nov-2020 12:37:19 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:37:19 Europe/Kiev] PHP Notice:  Undefined index: name in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:37:19 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\dogshop.me\common\Model.php:60
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(60): PDO->prepare('UPDATE  product...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(61): Model->update(NULL, Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->update(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'update')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 60
+[11-Nov-2020 12:38:53 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:38:53 Europe/Kiev] PHP Notice:  Undefined index: name in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:38:53 Europe/Kiev] PHP Notice:  Undefined variable: brand in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:38:53 Europe/Kiev] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:38:53 Europe/Kiev] PHP Notice:  Undefined variable: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:38:53 Europe/Kiev] PHP Notice:  Undefined variable: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:38:53 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\dogshop.me\common\Model.php:60
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(60): PDO->prepare('UPDATE  product...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(61): Model->update(NULL, Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->update(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'update')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 60
+[11-Nov-2020 12:39:04 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:39:04 Europe/Kiev] PHP Notice:  Undefined index: name in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:39:04 Europe/Kiev] PHP Notice:  Undefined variable: brand in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:39:04 Europe/Kiev] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:39:04 Europe/Kiev] PHP Notice:  Undefined variable: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:39:04 Europe/Kiev] PHP Notice:  Undefined variable: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:39:04 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\dogshop.me\common\Model.php:60
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(60): PDO->prepare('UPDATE  product...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(61): Model->update(NULL, Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->update(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'update')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 60
+[11-Nov-2020 12:41:29 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 65
+[11-Nov-2020 12:41:29 Europe/Kiev] PHP Notice:  Undefined index: name in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 65
+[11-Nov-2020 12:41:29 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\dogshop.me\common\Model.php:60
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(60): PDO->prepare('UPDATE  product...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(65): Model->update(NULL, Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->update(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'update')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 60
+[11-Nov-2020 12:42:54 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 65
+[11-Nov-2020 12:42:54 Europe/Kiev] PHP Notice:  Undefined index: name in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 65
+[11-Nov-2020 12:42:54 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\dogshop.me\common\Model.php:60
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(60): PDO->prepare('UPDATE  product...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(65): Model->update(NULL, Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->update(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'update')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 60
+[11-Nov-2020 12:43:51 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 48
+[11-Nov-2020 12:45:02 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 65
+[11-Nov-2020 12:45:02 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\dogshop.me\common\Model.php:60
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(60): PDO->prepare('UPDATE  product...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(65): Model->update(NULL, Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->update(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'update')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 60
+[11-Nov-2020 12:47:41 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 66
+[11-Nov-2020 12:47:41 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\dogshop.me\common\Model.php:60
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(60): PDO->prepare('UPDATE  product...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(66): Model->update(NULL, Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->update(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'update')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 60
+[11-Nov-2020 12:48:54 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 56
+[11-Nov-2020 12:49:18 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:49:18 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 68
+[11-Nov-2020 12:49:18 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\dogshop.me\common\Model.php:60
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(60): PDO->prepare('UPDATE  product...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(68): Model->update(NULL, Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->update(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'update')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 60
+[11-Nov-2020 12:51:05 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 12:51:05 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 62
+[11-Nov-2020 12:51:05 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 63
+[11-Nov-2020 12:51:05 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 67
+[11-Nov-2020 12:51:05 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\dogshop.me\common\Model.php:60
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(60): PDO->prepare('UPDATE  product...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(67): Model->update(NULL, Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->update(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'update')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 60
+[11-Nov-2020 12:54:04 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 68
+[11-Nov-2020 12:54:04 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\dogshop.me\common\Model.php:60
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(60): PDO->prepare('UPDATE  product...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(68): Model->update(NULL, Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->update(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'update')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 60
+[11-Nov-2020 12:54:11 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 68
+[11-Nov-2020 12:54:11 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\dogshop.me\common\Model.php:60
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(60): PDO->prepare('UPDATE  product...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(68): Model->update(NULL, Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->update(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'update')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 60
+[11-Nov-2020 12:56:48 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 62
+[11-Nov-2020 12:59:23 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 63
+[11-Nov-2020 12:59:23 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 64
+[11-Nov-2020 12:59:23 Europe/Kiev] PHP Notice:  Undefined index: id in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 67
+[11-Nov-2020 12:59:23 Europe/Kiev] PHP Notice:  Undefined property: ProductController::$0 in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 67
+[11-Nov-2020 12:59:23 Europe/Kiev] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\dogshop.me\common\Model.php:60
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Model.php(60): PDO->prepare('UPDATE  product...')
+#1 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php(67): Model->update(NULL, Array)
+#2 C:\xampp\htdocs\dogshop.me\common\Router.php(31): ProductController->update(Array)
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(ProductController), 'update')
+#4 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#5 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(15): App->run()
+#6 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\common\Model.php on line 60
+[11-Nov-2020 13:00:01 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 63
+[11-Nov-2020 13:00:01 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 64
+[11-Nov-2020 13:00:01 Europe/Kiev] PHP Notice:  Undefined property: ProductController::$0 in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 67
+[11-Nov-2020 13:01:33 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 61
+[11-Nov-2020 13:01:33 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 62
+[11-Nov-2020 13:01:33 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 63
+[11-Nov-2020 13:01:33 Europe/Kiev] PHP Notice:  Undefined property: ProductController::$0 in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 66
+[11-Nov-2020 13:05:12 Europe/Kiev] PHP Notice:  Undefined property: stdClass::$recommended in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 28
+[11-Nov-2020 13:05:12 Europe/Kiev] PHP Notice:  Undefined property: stdClass::$recommended in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 28
+[11-Nov-2020 13:05:12 Europe/Kiev] PHP Notice:  Undefined property: stdClass::$recommended in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 28
+[11-Nov-2020 13:06:35 Europe/Kiev] PHP Notice:  Undefined property: stdClass::$brend_id in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 28
+[11-Nov-2020 13:06:35 Europe/Kiev] PHP Notice:  Undefined property: stdClass::$brend_id in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 28
+[11-Nov-2020 13:06:35 Europe/Kiev] PHP Notice:  Undefined property: stdClass::$brend_id in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 28
+[11-Nov-2020 13:08:08 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 29
+[11-Nov-2020 13:08:08 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 29
+[11-Nov-2020 13:08:24 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 29
+[11-Nov-2020 13:08:24 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 29
+[11-Nov-2020 13:08:43 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 29
+[11-Nov-2020 13:08:43 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 29
+[11-Nov-2020 13:08:44 Europe/Kiev] PHP Notice:  Undefined variable: categories in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 29
+[11-Nov-2020 13:08:44 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 29
+[11-Nov-2020 13:10:11 Europe/Kiev] PHP Parse error:  syntax error, unexpected '}' in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 30
+[11-Nov-2020 13:10:24 Europe/Kiev] PHP Parse error:  syntax error, unexpected '}' in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 30
+[11-Nov-2020 13:11:34 Europe/Kiev] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 42
+[11-Nov-2020 13:12:01 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 64
+[11-Nov-2020 13:12:01 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 65
+[11-Nov-2020 13:12:01 Europe/Kiev] PHP Notice:  Undefined property: ProductController::$0 in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 68
+[11-Nov-2020 13:12:43 Europe/Kiev] PHP Parse error:  syntax error, unexpected '=' in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 31
+[11-Nov-2020 13:14:04 Europe/Kiev] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 44
+[11-Nov-2020 13:15:03 Europe/Kiev] PHP Parse error:  syntax error, unexpected '=' in C:\xampp\htdocs\dogshop.me\app\Views\admin\products\index.php on line 30
+[11-Nov-2020 13:17:47 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 66
+[11-Nov-2020 13:17:47 Europe/Kiev] PHP Notice:  Undefined property: ProductController::$0 in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 69

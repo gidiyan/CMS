@@ -16,35 +16,26 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b8bc369-22ba-4733-b4c5-e70efb186608" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Admin/GuestbookController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Guestbook.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/categories/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/categories/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/categories/show.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/guestbook/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/guestbook/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/guestbook/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/guestbook/show.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Model.php" afterDir="false" />
+    <list default="true" id="8b8bc369-22ba-4733-b4c5-e70efb186608" name="Default Changelist" comment="temp commit">
+      <change afterPath="$PROJECT_DIR$/app/Controllers/Admin/BrandController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Controllers/Admin/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Brand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/brands/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/brands/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/brands/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/brands/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/brands/show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/products/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/products/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/products/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/products/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/products/show.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/AboutController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/ConfigController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/ConfigController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/ErrorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/ErrorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/ShopController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/ShopController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/about/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/about/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/admin/categories/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/categories/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/admin/categories/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/categories/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/blog/_messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/blog/_messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/admin/categories/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/categories/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/admin/guestbook/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/guestbook/show.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
     </list>
@@ -81,7 +72,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Views/admin/messages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Views/admin/products" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -93,11 +84,11 @@
       <recent name="C:\xampp\htdocs\dogshop.me\public\assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\products" />
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\brands" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\messages" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\admin" />
       <recent name="C:\xampp\htdocs\dogshop.me\Views\shop" />
-      <recent name="C:\xampp\htdocs\dogshop.me\Views\home" />
-      <recent name="C:\xampp\htdocs\dogshop.me\Views\blog" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -120,7 +111,7 @@
       <workItem from="1604130282445" duration="58850000" />
       <workItem from="1604387293645" duration="6649000" />
       <workItem from="1604418894522" duration="711000" />
-      <workItem from="1604735527621" duration="49974000" />
+      <workItem from="1604735527621" duration="77948000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1603547847061</created>
@@ -192,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604747536328</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="temp commit">
+      <created>1604922261247</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604922261247</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,33 +222,38 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="temp commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604138322379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604138322379" />
-    <state x="427" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604226028469">
+    <state x="427" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604990605808">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="427" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604226028469" />
+    <state x="427" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604990605808" />
+    <state x="180" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605080378233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="180" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1605080378233" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604395612378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604395612378" />
-    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1604387437238">
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1605000335869">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604387437238" />
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605000335869" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1603794164645">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603794164645" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604747545014">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604922271556">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604747545014" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604922271556" />
     <state x="283" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604858623062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -263,9 +266,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603547967440" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1604864391148">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1605089725011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1604864391148" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605089725011" />
   </component>
 </project>
