@@ -21,7 +21,7 @@ class Router
         return [$controllerPath, $controller, $action];
     }
 
-    private function init($controllerPath, $controller, $action, $vars=[])
+    private function init($controllerPath, $controller, $action, $vars = [])
     {
         $controllerPath = CONTROLLERS . $controllerPath . $controller . '.php';
         if (file_exists($controllerPath)) {
@@ -37,13 +37,13 @@ class Router
             return $this->init(...$this->getController($this->routes[$this->request->uri()]));
         } else {
             foreach ($this->routes as $key => $value) {
-              $pattern =  "@^".preg_replace('/{([a-zA-Z0-9]+)}/','(?<$1>[0-9]+)',$key)."$@";
-              preg_match($pattern,$this->request->uri(),$matches);
-              if($matches){
-                  $arr = $this->getController($value);
-                  $arr[] = $matches;
-                  return $this->init(...$arr);
-              }
+                $pattern = "@^" . preg_replace('/{([a-zA-Z0-9]+)}/', '(?<$1>[0-9]+)', $key) . "$@";
+                preg_match($pattern, $this->request->uri(), $matches);
+                if ($matches) {
+                    $arr = $this->getController($value);
+                    $arr[] = $matches;
+                    return $this->init(...$arr);
+                }
             }
         }
         return $this->init(...$this->getController($this->routes['404']));

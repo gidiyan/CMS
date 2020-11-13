@@ -20,10 +20,10 @@ class Request
 
     private function cleanInput($data)
     {
-        if(is_array($data)){
-            $cleaned=[];
-            foreach ($data as $key=>$value){
-                $cleaned[$key]= $this ->cleanInput($value);
+        if (is_array($data)) {
+            $cleaned = [];
+            foreach ($data as $key => $value) {
+                $cleaned[$key] = $this->cleanInput($value);
             }
             return $cleaned;
         }

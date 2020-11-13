@@ -2,7 +2,6 @@
 require_once realpath(__DIR__ . '/../config') . '/app.php';
 
 
-
 function config($mix)
 {
     $url = CONFIG . "/" . $mix . ".json";

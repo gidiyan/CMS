@@ -1,6 +1,6 @@
 <!-- categories -->
 <!--        <div class="row"><a class="pic-center" href="#"><img src="/assets/images/banner.gif" width="50%"> </a></div>-->
-<?php require_once  '_slider.php';?>
+<?php require_once '_slider.php'; ?>
 <section>
     <div class="categories">
         <header class="titles">

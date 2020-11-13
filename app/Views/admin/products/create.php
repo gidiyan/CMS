@@ -8,35 +8,40 @@
         <div class="card-body">
             <form method="POST" action="/admin/products/store">
                 <div class="form-group">
-                    <div  class="form-group"><label for="name">Name</label>
-                        <input type="text" class="form-control" style="width: 30vw" id="name" name="name" aria-describedby="nameHelp"
+                    <div class="form-group"><label for="name">Name</label>
+                        <input type="text" class="form-control" style="width: 30vw" id="name" name="name"
+                               aria-describedby="nameHelp"
                                required>
                     </div>
                     <div class="form-group"><label for="name">Category</label>
                         <div>
-                        <select class="form-select"  style="width: 30vw" name="category_id" id="category_id" required>
-                            <?php foreach ($categories as $category) { ?>
-                                <option style="width: 250px" class="text-uppercase" name="category_<?= $category->id ?>"
-                                        value="<?= $category->id ?>"><?= $category->name ?></option>
-                            <?php } ?>
-                        </select>
-                    </div>
+                            <select class="form-select" style="width: 30vw" name="category_id" id="category_id"
+                                    required>
+                                <?php foreach ($categories as $category) { ?>
+                                    <option style="width: 250px" class="text-uppercase"
+                                            name="category_<?= $category->id ?>"
+                                            value="<?= $category->id ?>"><?= $category->name ?></option>
+                                <?php } ?>
+                            </select>
+                        </div>
                     </div>
                     <div class="form-group">
-                    <label for="name">Brand</label>
+                        <label for="name">Brand</label>
                         <div>
-                        <select class="form-select" style="width: 30vw" name="brand_id" id="brand_id" required>
-                            <?php foreach ($brands as $brand) { ?>
-                                <option style="width: 250px" class="text-uppercase" name="brand_<?= $brand->id ?>"
-                                        value="<?= $brand->id ?>"><?= $brand->name ?></option>
-                            <?php } ?>
-                        </select>
-                    </div>
+                            <select class="form-select" style="width: 30vw" name="brand_id" id="brand_id" required>
+                                <?php foreach ($brands as $brand) { ?>
+                                    <option style="width: 250px" class="text-uppercase" name="brand_<?= $brand->id ?>"
+                                            value="<?= $brand->id ?>"><?= $brand->name ?></option>
+                                <?php } ?>
+                            </select>
+                        </div>
                     </div>
                     <label class="form-group" for="name">Price</label>
-                    <input type="number" step="0.01" class="form-control" style="width: 30vw" id="price" name="price" required>
+                    <input type="number" step="0.01" class="form-control" style="width: 30vw" id="price" name="price"
+                           required>
                     <label class="form-group" for="name">Description</label>
-                    <textarea type="text" class="form-control" rows="10" cols="30" style="width: 30vw" id="description" name="description" required></textarea>
+                    <textarea type="text" class="form-control" rows="10" cols="30" style="width: 30vw" id="description"
+                              name="description" required></textarea>
                 </div>
                 <div class="form-group form-check">
                     <div>

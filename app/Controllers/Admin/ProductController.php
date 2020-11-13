@@ -16,7 +16,7 @@ class ProductController extends Controller
         $products = (new Product())->all();
         $categories = (new Category())->all();
         $brands = (new Brand())->all();
-        $this->view->render('admin/products/index', compact('title', 'products','categories','brands'), 'admin');
+        $this->view->render('admin/products/index', compact('title', 'products', 'categories', 'brands'), 'admin');
     }
 
     public function create()
@@ -45,7 +45,7 @@ class ProductController extends Controller
         $categories = (new Category())->all();
         $brands = (new Brand())->all();
         $product = (new Product())->getByPK($id);
-        $this->view->render('admin/products/show', compact('title', 'product','categories','brands'), 'admin');
+        $this->view->render('admin/products/show', compact('title', 'product', 'categories', 'brands'), 'admin');
     }
 
     public function edit($vars)
@@ -55,7 +55,7 @@ class ProductController extends Controller
         $product = (new Product())->getByPK($id);
         $categories = (new Category())->all();
         $brands = (new Brand())->all();
-        $this->view->render('admin/products/edit', compact('title', 'product','brands','categories'), 'admin');
+        $this->view->render('admin/products/edit', compact('title', 'product', 'brands', 'categories'), 'admin');
 
     }
 
@@ -66,7 +66,7 @@ class ProductController extends Controller
         $recommended = $this->request->data['recommended'] ? 1 : 0;
         $brand = $this->request->data['brand_id'];
         $category = $this->request->data['category_id'];
-        (new Product())->update($this->request->data['id'],['name' => $this->request->data['name'], 'price' => $this->request->data['price'], 'description' => $this->request->data['description'], 'status' => $status, 'brand_id' => $brand, 'category_id' => $category, 'is_new' => $new, 'is_recommended' => $this->$recommended]);
+        (new Product())->update($this->request->data['id'], ['name' => $this->request->data['name'], 'price' => $this->request->data['price'], 'description' => $this->request->data['description'], 'status' => $status, 'brand_id' => $brand, 'category_id' => $category, 'is_new' => $new, 'is_recommended' => $this->$recommended]);
         return header('Location: /admin/products');
     }
 

@@ -2,7 +2,7 @@
 require_once COMMON . '/Controller.php';
 require_once MODELS . '/Guestbook.php';
 
-//TODO SQL
+
 class BlogController extends Controller
 {
     protected $conn;

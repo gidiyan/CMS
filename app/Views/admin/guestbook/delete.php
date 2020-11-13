@@ -2,8 +2,8 @@
     <div class="card">
         <div class="card-header">
             <strong class="card-title"> <span data-feather="file-text"></span><?php echo $title; ?></strong><a
-                href="/admin/guestbook" class="btn btn-info text-center float-right"><span
-                    data-feather="arrow-left-circle"></span>Go Back</a>
+                    href="/admin/guestbook" class="btn btn-info text-center float-right"><span
+                        data-feather="arrow-left-circle"></span>Go Back</a>
         </div>
         <div class="card-body">
             <form method="POST" class="form-horizontal">

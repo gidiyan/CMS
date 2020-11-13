@@ -21,16 +21,17 @@ class Model
         return $stmt->fetchAll();
 
     }
+
     public function filter()
     {
-        $stmt = $this->conn->query("SELECT * FROM " . static::$table." WHERE ".static::$filter.'= 1');
+        $stmt = $this->conn->query("SELECT * FROM " . static::$table . " WHERE " . static::$filter . '= 1');
         return $stmt->fetchAll();
     }
 
     public function store($params)
     {
         $sql = sprintf(
-            'INSERT INTO %s (%s) VALUES (%s);', static::$table, implode(', ', array_keys($params)),':'.implode(", :", array_keys($params))
+            'INSERT INTO %s (%s) VALUES (%s);', static::$table, implode(', ', array_keys($params)), ':' . implode(", :", array_keys($params))
         );
         $stmt = $this->conn->prepare($sql);
         $stmt->execute($params);
@@ -53,7 +54,7 @@ class Model
     {
         $keys = [];
         foreach ($params as $key => $value) {
-            array_push($keys, $key."='".$value."'");
+            array_push($keys, $key . "='" . $value . "'");
         }
         $sql = sprintf(
             'UPDATE  %s SET %s WHERE %s = %s', static::$table, implode(', ', $keys), static::$pk, $id);

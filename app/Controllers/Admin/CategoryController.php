@@ -22,8 +22,8 @@ class CategoryController extends Controller
 
     public function store()
     {
-        $status = $this->request->data['status'] ? 1:0;
-        (new Category())->store(["name"=>$this->request->data['name'], 'status'=>$status]);
+        $status = $this->request->data['status'] ? 1 : 0;
+        (new Category())->store(["name" => $this->request->data['name'], 'status' => $status]);
         return header('Location: /admin/categories');
     }
 
@@ -32,7 +32,7 @@ class CategoryController extends Controller
         extract($vars);
         $title = "Category Detail";
         $category = (new Category())->getByPK($id);
-        $this->view->render('admin/categories/show', compact('title','category'), 'admin');
+        $this->view->render('admin/categories/show', compact('title', 'category'), 'admin');
     }
 
     public function edit($vars)
@@ -40,13 +40,13 @@ class CategoryController extends Controller
         extract($vars);
         $title = "Category Edit";
         $category = (new Category())->getByPK($id);
-        $this->view->render('admin/categories/edit', compact('title','category'), 'admin');
+        $this->view->render('admin/categories/edit', compact('title', 'category'), 'admin');
     }
 
     public function update()
     {
         $status = $this->request->data['status'] ? 1 : 0;
-        (new Category())->update($this->request->data['id'],['name'=>$this->request->data['name'], 'status'=>$status]);
+        (new Category())->update($this->request->data['id'], ['name' => $this->request->data['name'], 'status' => $status]);
         return header('Location: /admin/categories');
     }
 
@@ -54,15 +54,15 @@ class CategoryController extends Controller
     {
         $title = "Category Delete";
         extract($vars);
-        if(isset($_POST['submit'])){
+        if (isset($_POST['submit'])) {
             (new Category())->destroy($id);
             return header('Location: /admin/categories');
-        }elseif (isset($_POST['reset'])){
+        } elseif (isset($_POST['reset'])) {
             var_dump($_POST);
             return header('Location: /admin/categories');
         }
         $category = (new Category())->getByPK($id);
-        $this->view->render('admin/categories/delete', compact('title','category'), 'admin');
+        $this->view->render('admin/categories/delete', compact('title', 'category'), 'admin');
     }
 
 }

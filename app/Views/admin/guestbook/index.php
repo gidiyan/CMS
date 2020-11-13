@@ -2,8 +2,8 @@
     <div class="card">
         <div class="card-header text-center">
             <strong class="card-title"> <span data-feather="file-text"></span><?php echo $title; ?></strong>
-<!--            <a      href="/admin/guestbook/create" class="btn btn-primary text-center float-right"><span-->
-<!--                        data-feather="plus"></span> Add New</a>-->
+            <!--            <a      href="/admin/guestbook/create" class="btn btn-primary text-center float-right"><span-->
+            <!--                        data-feather="plus"></span> Add New</a>-->
         </div>
         <div class="card-body">
             <div class="table-responsive">
@@ -30,11 +30,11 @@
                                 <td><p class="text-truncate" style="width: 250px"><?= $message->message ?></p></td>
                                 <td><?= $message->approved !== 0 ? 'YES' : '' ?></td>
                                 <td>
-                                        <a href="/admin/guestbook/show/<?= $message->id ?>" class="btn btn-default"><span
+                                    <a href="/admin/guestbook/show/<?= $message->id ?>" class="btn btn-default"><span
                                                 data-feather="eye"></span>View</a>
-                                        <a href="/admin/guestbook/edit/<?= $message->id ?>" class="btn btn-primary"><span
+                                    <a href="/admin/guestbook/edit/<?= $message->id ?>" class="btn btn-primary"><span
                                                 data-feather="edit"></span>Edit</a>
-                                        <a href="/admin/guestbook/delete/<?= $message->id ?>" class="btn btn-danger"><span
+                                    <a href="/admin/guestbook/delete/<?= $message->id ?>" class="btn btn-danger"><span
                                                 data-feather="delete"></span>Delete</a>
                                 </td>
 

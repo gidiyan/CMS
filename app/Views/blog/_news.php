@@ -4,7 +4,7 @@
         <div class="news-body">
             <?php if (isset($news)):
                 foreach ($news as $key => $value) {
-                    echo "<p>" . $key . ": </p><i>" . $value."</i>";
+                    echo "<p>" . $key . ": </p><i>" . $value . "</i>";
                 } endif;
             ?>
         </div>
