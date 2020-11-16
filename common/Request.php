@@ -7,8 +7,13 @@ class Request
 
     public function __construct()
     {
-        $this->data = $this->cleanInput($_REQUEST);
+        $this->data = $this->mergeData($_REQUEST, $_FILES);
+    }
 
+    private function mergeData(array $post, array $file)
+    {
+        $post = $this->cleanInput($post);
+        return array_merge($post, $file);
     }
 
     public function uri()

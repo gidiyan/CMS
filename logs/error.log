@@ -1832,3 +1832,144 @@ Stack trace:
 [13-Nov-2020 10:30:10 Europe/Kiev] PHP Notice:  Undefined property: ProductController::$0 in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 69
 [13-Nov-2020 10:30:17 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 66
 [13-Nov-2020 10:30:17 Europe/Kiev] PHP Notice:  Undefined property: ProductController::$0 in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 69
+[14-Nov-2020 10:36:44 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 27
+[14-Nov-2020 11:01:40 Europe/Kiev] PHP Warning:  : failed to open stream: No such file or directory in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 31
+[14-Nov-2020 11:01:40 Europe/Kiev] PHP Warning:  move_uploaded_file(): Unable to move 'C:\xampp\tmp\phpE63B.tmp' to 'C:/xampp/htdocs/dogshop.me/public/assets/images/categories/N8:/J�!^�Z��p�:�' in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 31
+[14-Nov-2020 11:01:40 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 35
+[14-Nov-2020 11:07:26 Europe/Kiev] PHP Warning:  : failed to open stream: No error in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 31
+[14-Nov-2020 11:07:26 Europe/Kiev] PHP Warning:  move_uploaded_file(): Unable to move 'C:\xampp\tmp\php25CD.tmp' to 'C:/xampp/htdocs/dogshop.me/publicassets/images/categories/yk����K��ZK�6�(�e*' in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 31
+[14-Nov-2020 11:07:26 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 35
+[14-Nov-2020 11:57:50 Europe/Kiev] PHP Warning:  : failed to open stream: No such file or directory in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 34
+[14-Nov-2020 11:57:50 Europe/Kiev] PHP Warning:  move_uploaded_file(): Unable to move 'C:\xampp\tmp\php53D5.tmp' to 'C:\xampp\htdocs\dogshop.me\config/..//assets/images/categories/&gt;k�ț������Yu���+�mJ' in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 34
+[14-Nov-2020 11:57:50 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 37
+[14-Nov-2020 12:13:12 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class 'Product' not found in C:\xampp\htdocs\dogshop.me\app\Controllers\HomeController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(31): HomeController->getProducts(Array)
+#1 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(HomeController), 'getProducts')
+#2 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#3 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(14): App->run()
+#4 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\HomeController.php on line 14
+[14-Nov-2020 12:22:40 Europe/Kiev] PHP Warning:  require_once(C:\xampp\htdocs\dogshop.me\config/..//app/Models/Category.php.php): failed to open stream: No such file or directory in C:\xampp\htdocs\dogshop.me\app\Controllers\HomeController.php on line 4
+[14-Nov-2020 12:22:40 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required 'C:\xampp\htdocs\dogshop.me\config/..//app/Models/Category.php.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dogshop.me\app\Controllers\HomeController.php on line 4
+[14-Nov-2020 12:43:41 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method Category::getWithSql() in C:\xampp\htdocs\dogshop.me\app\Controllers\HomeController.php:41
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(31): HomeController->getCategoriesWithCount(Array)
+#1 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(HomeController), 'getCategoriesWi...')
+#2 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#3 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(14): App->run()
+#4 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\HomeController.php on line 41
+[14-Nov-2020 12:54:33 Europe/Kiev] PHP Warning:  : failed to open stream: No error in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 33
+[14-Nov-2020 12:54:33 Europe/Kiev] PHP Warning:  move_uploaded_file(): Unable to move 'C:\xampp\tmp\php3E75.tmp' to 'C:/xampp/htdocs/dogshop.me/public/assets/images/categories/	��m�VN��e�*�J�R�' in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 33
+[14-Nov-2020 12:55:17 Europe/Kiev] PHP Warning:  : failed to open stream: No error in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 33
+[14-Nov-2020 12:55:17 Europe/Kiev] PHP Warning:  move_uploaded_file(): Unable to move 'C:\xampp\tmp\phpEA95.tmp' to 'C:/xampp/htdocs/dogshop.me/public/assets/images/categories/K��'	w�Z�̇X?��|�{' in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 33
+[14-Nov-2020 12:55:48 Europe/Kiev] PHP Warning:  Use of undefined constant test - assumed 'test' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 31
+[14-Nov-2020 13:34:21 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 40
+[14-Nov-2020 13:34:21 Europe/Kiev] PHP Notice:  Undefined variable: filename in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 41
+[14-Nov-2020 13:36:09 Europe/Kiev] PHP Warning:  Illegal string offset 'tmp_name' in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 30
+[14-Nov-2020 13:36:09 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 40
+[14-Nov-2020 13:36:09 Europe/Kiev] PHP Notice:  Undefined variable: filename in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 41
+[14-Nov-2020 13:39:00 Europe/Kiev] PHP Warning:  Illegal string offset 'tmp_name' in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 30
+[14-Nov-2020 13:39:00 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 42
+[14-Nov-2020 13:39:00 Europe/Kiev] PHP Notice:  Undefined variable: filename in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 43
+[14-Nov-2020 13:39:39 Europe/Kiev] PHP Warning:  Illegal string offset 'tmp_name' in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 32
+[14-Nov-2020 13:39:39 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 44
+[14-Nov-2020 13:39:39 Europe/Kiev] PHP Notice:  Undefined variable: filename in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 45
+[14-Nov-2020 13:41:07 Europe/Kiev] PHP Warning:  Illegal string offset 'tmp_name' in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 31
+[14-Nov-2020 13:41:07 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 43
+[14-Nov-2020 13:41:07 Europe/Kiev] PHP Notice:  Undefined variable: filename in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 44
+[14-Nov-2020 13:52:52 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 39
+[14-Nov-2020 13:58:27 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 39
+[14-Nov-2020 14:05:21 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 39
+[15-Nov-2020 10:35:41 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\BrandController.php on line 48
+[15-Nov-2020 10:43:03 Europe/Kiev] PHP Notice:  Undefined property: stdClass::$status in C:\xampp\htdocs\dogshop.me\app\Views\admin\roles\index.php on line 26
+[15-Nov-2020 10:43:03 Europe/Kiev] PHP Notice:  Undefined property: stdClass::$status in C:\xampp\htdocs\dogshop.me\app\Views\admin\roles\index.php on line 26
+[15-Nov-2020 10:43:03 Europe/Kiev] PHP Notice:  Undefined property: stdClass::$status in C:\xampp\htdocs\dogshop.me\app\Views\admin\roles\index.php on line 26
+[15-Nov-2020 11:30:54 Europe/Kiev] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\dogshop.me\app\Views\admin\users\create.php:31
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\app\Views\layouts\admin.php(11): require_once()
+#1 C:\xampp\htdocs\dogshop.me\common\View.php(18): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\UserController.php(25): View->render('admin/users/cre...', Array, 'admin')
+#3 C:\xampp\htdocs\dogshop.me\common\Router.php(31): UserController->create(Array)
+#4 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(UserController), 'create')
+#5 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#6 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(14): App->run()
+#7 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Views\admin\users\create.php on line 31
+[15-Nov-2020 16:30:03 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 36
+[15-Nov-2020 17:08:56 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined method CategoryController::fileName() in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php:81
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(31): CategoryController->insertImage(Array)
+#1 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'insertImage')
+#2 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#3 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(14): App->run()
+#4 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 81
+[15-Nov-2020 17:10:03 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class 'Helper' not found in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php:82
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(31): CategoryController->insertImage(Array)
+#1 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'insertImage')
+#2 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#3 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(14): App->run()
+#4 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 82
+[15-Nov-2020 17:21:39 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 36
+[15-Nov-2020 17:23:31 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 36
+[15-Nov-2020 17:24:44 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 36
+[15-Nov-2020 17:25:22 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 36
+[15-Nov-2020 17:25:38 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 36
+[15-Nov-2020 20:21:55 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 36
+[15-Nov-2020 20:24:08 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 59
+[15-Nov-2020 20:25:33 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 36
+[15-Nov-2020 20:34:15 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 36
+[15-Nov-2020 20:52:17 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 36
+[15-Nov-2020 20:52:47 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 36
+[16-Nov-2020 08:40:14 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 27
+[16-Nov-2020 08:40:51 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 27
+[16-Nov-2020 08:40:51 Europe/Kiev] PHP Notice:  Undefined index: file_name in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 28
+[16-Nov-2020 08:42:10 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 27
+[16-Nov-2020 08:43:26 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 27
+[16-Nov-2020 08:53:05 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 27
+[16-Nov-2020 08:53:11 Europe/Kiev] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php:61
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(31): CategoryController->destroy(Array)
+#1 C:\xampp\htdocs\dogshop.me\common\Router.php(45): Router->init('C:\\xampp\\htdocs...', Object(CategoryController), 'destroy', Array)
+#2 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#3 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(14): App->run()
+#4 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 61
+[16-Nov-2020 08:57:57 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\CategoryController.php on line 27
+[16-Nov-2020 10:29:47 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class 'Brand' not found in C:\xampp\htdocs\dogshop.me\app\Controllers\HomeController.php:37
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(31): HomeController->getBrands(Array)
+#1 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(HomeController), 'getBrands')
+#2 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#3 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(14): App->run()
+#4 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\HomeController.php on line 37
+[16-Nov-2020 10:32:27 Europe/Kiev] PHP Fatal error:  Uncaught Error: Class 'Brand' not found in C:\xampp\htdocs\dogshop.me\app\Controllers\HomeController.php:37
+Stack trace:
+#0 C:\xampp\htdocs\dogshop.me\common\Router.php(31): HomeController->getBrands(Array)
+#1 C:\xampp\htdocs\dogshop.me\common\Router.php(37): Router->init('C:\\xampp\\htdocs...', Object(HomeController), 'getBrands')
+#2 C:\xampp\htdocs\dogshop.me\common\App.php(39): Router->run()
+#3 C:\xampp\htdocs\dogshop.me\bootstrap\app.php(14): App->run()
+#4 C:\xampp\htdocs\dogshop.me\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dogshop.me\app\Controllers\HomeController.php on line 37
+[16-Nov-2020 11:01:09 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\BrandController.php on line 47
+[16-Nov-2020 11:02:53 Europe/Kiev] PHP Notice:  Undefined property: ProductController::$1 in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 69
+[16-Nov-2020 11:55:43 Europe/Kiev] PHP Notice:  Undefined index: new in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 65
+[16-Nov-2020 11:55:43 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 66
+[16-Nov-2020 11:55:43 Europe/Kiev] PHP Notice:  Undefined property: ProductController::$0 in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 69
+[16-Nov-2020 11:55:48 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 66
+[16-Nov-2020 11:55:48 Europe/Kiev] PHP Notice:  Undefined property: ProductController::$0 in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 69
+[16-Nov-2020 11:55:57 Europe/Kiev] PHP Notice:  Undefined index: recommended in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 66
+[16-Nov-2020 11:55:57 Europe/Kiev] PHP Notice:  Undefined property: ProductController::$0 in C:\xampp\htdocs\dogshop.me\app\Controllers\Admin\ProductController.php on line 69

@@ -17,9 +17,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b8bc369-22ba-4733-b4c5-e70efb186608" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/app/Controllers/Admin/RoleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Controllers/Admin/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Controllers/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Controllers/ProfileController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Controllers/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/roles/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/roles/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/roles/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/roles/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/roles/show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/users/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/users/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/users/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/users/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/users/show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/blog/_slider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/croppie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/categories/01cea498fd5be5346eadc7ca11890ea4f271bd4d1605515882" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/categories/9ce34d5683d95debbfc33cab470fa9664ff9ccbb1605515986" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/categories/b3df09a44224be68ed390c8d22c07f15cc8a92981605515957" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/croppie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/feather.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Admin/BrandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Admin/BrandController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/about/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/about/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/admin/categories/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/categories/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/admin/categories/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/categories/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/blog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/blog/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_head.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_script.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_scripts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/site/_modal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/site/_modal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/shop/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/shop/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/dashboard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,31 +93,36 @@
     </option>
   </component>
   <component name="ProjectId" id="1j2gXndgi1VpOmg1Z6ZVtatHBrn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/kayako-php-api-library-master/kayako-php-api-library-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Views/admin/users" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\layouts" />
-      <recent name="C:\xampp\htdocs\dogshop.me" />
-      <recent name="C:\xampp\htdocs\dogshop.me\public\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\users" />
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\roles" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\products" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\brands" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\messages" />
-      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\layouts\partials\admin" />
-      <recent name="C:\xampp\htdocs\dogshop.me\Views\shop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\brands" />
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\roles" />
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\tmp" />
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\layouts" />
+      <recent name="C:\xampp\htdocs\dogshop.me" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,6 +163,7 @@
       <workItem from="1604735527621" duration="78771000" />
       <workItem from="1605160514025" duration="21000" />
       <workItem from="1605160613775" duration="3431000" />
+      <workItem from="1605258512481" duration="56634000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1603547847061</created>
@@ -196,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605093945001</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="first commit">
+      <created>1605258806432</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605258806432</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,11 +287,16 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="temp commit" />
     <MESSAGE value="first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1605437724614">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1605437724614" />
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604138322379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -240,6 +305,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="427" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604990605808" />
+    <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1605258825078">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1605258825078" />
     <state x="180" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605080378233">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -260,18 +329,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605257751099" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605093950165">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1605341257097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605093950165" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1605341257097" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605258873758">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605258873758" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605258105072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1605258105072" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605258971522">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1605258971522" />
     <state x="283" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604858623062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="283" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1604858623062" />
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605258866977">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605258866977" />
     <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1604864249303">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -280,9 +361,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603547967440" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1605089725011">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1605430388001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605089725011" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605430388001" />
   </component>
 </project>

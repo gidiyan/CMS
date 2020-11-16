@@ -22,6 +22,10 @@ class Storage {
         return products.find(product => product.id === +(id));
     }
 
+    static getStorageItem(key) {
+        return JSON.parse(localStorage.getItem(key));
+    }
+
     static getProducts() {
         return JSON.parse(localStorage.getItem('products'));
     }
@@ -30,8 +34,8 @@ class Storage {
         return JSON.parse(localStorage.getItem('categories'));
     }
 
-    static getSubCategories() {
-        return JSON.parse(localStorage.getItem('subcategories'));
+    static getBrands() {
+        return JSON.parse(localStorage.getItem('brands'));
     }
 }
 
@@ -41,10 +45,10 @@ class Product {
             const id = item.id;
             const name = item.name;
             const price = item.price;
-            const img = item.img;
-            const category = item.category;
-            const subcategory = item.subcategory;
-            return {id, name, price, img, category, subcategory};
+            const img = `/assets/images/categories/${item.image}`;
+            const category_id = item.category_id;
+            const brand_id = item.brand_id;
+            return {id, name, price, img, category_id, brand_id};
         });
     }
 }
@@ -54,19 +58,18 @@ class Category {
         return categories.map(item => {
             const id = item.id;
             const name = item.name;
-            const img = item.img;
+            const img = `/assets/images/categories/${item.image}`;
             return {id, name, img};
         });
     }
 }
 
-class SubCategory {
-    makeModel(subcategories) {
-        return subcategories.map(item => {
+class Brand {
+    makeModel(brands) {
+        return brands.map(item => {
             const id = item.id;
             const name = item.name;
-            const img = item.img;
-            return {id, name, img};
+            return {id, name};
         });
     }
 }
@@ -92,10 +95,11 @@ class App {
     }
 
     getProduct = (id) => Storage.getProducts().find(product => product.id === +(id));
+
     createProduct = (data) =>
         `
-       <div class="product cs-1 md-2 tb-3 tb-4 pic-center pic-parent"  data-id="${data.id}">
-           <img alt="${data.name}" src="/assets/${data.img}" class="img-fluid">
+       <div class="product cs-1 md-2 tb-3 tb-4 pic-center pic-parent"  data-id="${data.id}" >
+           <img alt="${data.name}" src="${data.img}" class="img-fluid">
            <strong class="sm-bottom prod-bottom font-size--small">${data.price}</strong>
            <strong class="sm-desc prod-desc">${data.name}</strong>
             <ul class="prod-text">
@@ -129,7 +133,7 @@ class App {
         div.innerHTML =
             `
                     <div class="picture product-img">
-                        <img src="/assets/${item.img}" alt="${item.img}" class="img-fluid w-100">
+                        <img src="${item.img}" alt="${item.img}" class="img-fluid w-100">
                     </div>
                     <div class="product_name mx-auto">${item.name}</div>
                     <div class="remove-btn text-right">
@@ -293,7 +297,7 @@ class App {
 
     createCategory(category) {
         return `
-         <a class="cat-overflow" data-category="${category.name}" href="shop"><img alt="categories block" src="/assets/${category.img}" class="img-fluid transform"><strong class="text-inside1 category-item" data-category="${category.name}">"${category.name}"</strong></a>
+         <a class="cat-overflow" data-category="${category.name}" href="shop"><img alt=${category.name}" src="${category.img}" class="img-fluid transform"><strong class="text-inside1 category-item" data-category="${category.id}">"${category.name}"</strong></a>
         `
     }
 
@@ -307,10 +311,17 @@ class App {
     }
 
     categoriesList() {
+        if (document.querySelector('.subcategories-list')) {
+            let result = ``;
+            Storage.getBrands().forEach(element => {
+                result += `<li class="incol mb-2 mt-3"><a class="reset_anchor brand-item" href="#" data-brand="${element.id}">${element.name}</a></li>`;
+            });
+            document.querySelector('.subcategories-list').innerHTML = result;
+        }
         if (document.querySelector('.categories-list')) {
             let result = ``;
-            Storage.getSubCategories().forEach(element => {
-                result += `<li class="incol mb-2 mt-3"><a class="reset_anchor  subcategory-item" href="#" data-subcategory="${element.name}">${element.name}</a></li>`;
+            Storage.getCategories().forEach(element => {
+                result += `<li class="incol mb-2 mt-3"><a class="reset_anchor category-item" href="#" data-category="${element.id}">${element.name}</a></li>`;
             });
             document.querySelector('.categories-list').innerHTML = result;
         }
@@ -321,16 +332,15 @@ class App {
         categories.addEventListener('click', (event) => {
             const target = event.target;
             if (target.classList.contains('category-item')) {
-                const category = target.dataset.category;
-                const categoryFilter = items => items.filter(item => item.category.includes(category));
+                const category_id = target.dataset.category;
+                const categoryFilter = items => items.filter(item => item.category_id == category_id);
                 this.makeShowcase(categoryFilter(Storage.getProducts()));
             } else if (
-                target.classList.contains('subcategory-item')) {
-                const subcategory = target.dataset.subcategory;
-                const categoryFilter = items => items.filter(item => item.subcategory.includes(subcategory));
-                this.makeShowcase(categoryFilter(Storage.getProducts()));
+                target.classList.contains('brand-item')) {
+                const brand_id = target.dataset.brand;
+                const brandFilter = items => items.filter(item => item.brand_id == brand_id);
+                this.makeShowcase(brandFilter(Storage.getProducts()));
             } else {
-                const categoryFilter = items => items.filter(item => item.category.includes(category));
                 this.makeShowcase((Storage.getProducts()));
             }
             this.addProductToCart();
@@ -382,7 +392,7 @@ class App {
     };
 
     fetchDATA(dataBase, model) {
-        const baseUrl = `https://my-json-server.typicode.com/gidiyan/db/${dataBase}`;
+        const baseUrl = `/api/${dataBase}`;
         fetch(baseUrl)
             .then(response => {
                 if (response.status !== 200) {
@@ -402,9 +412,9 @@ class App {
     const app = new App();
     if (document.querySelector('.categoriesShow')) {
         app.fetchDATA("categories", new Category());
-        app.fetchDATA("subcategories", new SubCategory());
+        app.fetchDATA("brands", new Brand());
         app.makeCategories(Storage.getCategories());
-        app.categoriesList(Storage.getSubCategories());
+        app.categoriesList(Storage.getBrands());
     }
     app.fetchDATA('products', new Product());
     if (document.querySelector('.no_goods')) {

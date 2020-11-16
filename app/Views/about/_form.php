@@ -17,7 +17,7 @@
                 <option class="text-uppercase" value="Request">Feater request</option>
             </select>
             <div class="form-group">
-                <textarea name="message" class="form-control bg-white" id="text" cols="20" rows="10"
+                <textarea name="message" class="form-control bg-white" id="text" style="height: 10vw"
                           required></textarea>
             </div>
             <div class="form-checkbox mb-1">

@@ -3,6 +3,7 @@
 require_once COMMON . '/Controller.php';
 require_once COMMON . '/Request.php';
 require_once MODELS . '/Category.php';
+require_once COMMON . '/Helper.php';
 
 
 class CategoryController extends Controller
@@ -22,8 +23,9 @@ class CategoryController extends Controller
 
     public function store()
     {
+
         $status = $this->request->data['status'] ? 1 : 0;
-        (new Category())->store(["name" => $this->request->data['name'], 'status' => $status]);
+        (new Category())->store(["name" => $this->request->data['name'], 'status' => $status, "image" => $this->request->data['file_name']]);
         return header('Location: /admin/categories');
     }
 
@@ -46,7 +48,7 @@ class CategoryController extends Controller
     public function update()
     {
         $status = $this->request->data['status'] ? 1 : 0;
-        (new Category())->update($this->request->data['id'], ['name' => $this->request->data['name'], 'status' => $status]);
+        (new Category())->update($this->request->data['id'], ['name' => $this->request->data['name'], 'status' => $status, "image" => $this->request->data['file_name']]);
         return header('Location: /admin/categories');
     }
 
@@ -55,6 +57,11 @@ class CategoryController extends Controller
         $title = "Category Delete";
         extract($vars);
         if (isset($_POST['submit'])) {
+            $category = (new Category())->getByPK($id);
+            $image = $category->image;
+            if(file_exists(ROOT.'public/assets/images/categories/'.$image)) {
+                unlink(ROOT.'public/assets/images/categories/'.$image);
+            }
             (new Category())->destroy($id);
             return header('Location: /admin/categories');
         } elseif (isset($_POST['reset'])) {
@@ -65,4 +72,21 @@ class CategoryController extends Controller
         $this->view->render('admin/categories/delete', compact('title', 'category'), 'admin');
     }
 
+    public function insertImage()
+    {
+        if (!empty($this->request->data['image'])) {
+            list($file, $filename) = $this->fileName($this->request->data['image']);
+            $uploaded = Helper::asset('categories', $filename);
+            file_put_contents($uploaded, $file);
+        }
+        echo $filename;
+    }
+
+    private function fileName($file)
+    {
+        $image_array_1 = explode(";", $file);
+        $image_array_2 = explode(",", $image_array_1[1]);
+        $file = base64_decode($image_array_2[1]);
+        return [$file, sha1(mt_rand(1, 9999) . uniqid()) . time()];
+    }
 }
