@@ -69,8 +69,8 @@ return [
     'api/products' => 'HomeController@getProducts',
     'api/products/{id}' => 'HomeController@getProduct',
 
-    'api/categories'=> 'HomeController@getCategories',
-    'api/brands'=> 'HomeController@getBrands',
+    'api/categories' => 'HomeController@getCategories',
+    'api/brands' => 'HomeController@getBrands',
 
 
 ];

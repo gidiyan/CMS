@@ -5,6 +5,7 @@ require_once COMMON . '/Request.php';
 require_once MODELS . '/Product.php';
 require_once MODELS . '/Category.php';
 require_once MODELS . '/Brand.php';
+require_once COMMON . '/Helper.php';
 
 
 class ProductController extends Controller
@@ -29,12 +30,13 @@ class ProductController extends Controller
 
     public function store()
     {
+
         $status = $this->request->data['status'] ? 1 : 0;
         $new = $this->request->data['new'] ? 1 : 0;
         $recommended = $this->request->data['recommended'] ? 1 : 0;
         $brand = $this->request->data['brand_id'];
         $category = $this->request->data['category_id'];
-        (new Product())->store(['name' => $this->request->data['name'], 'price' => $this->request->data['price'], 'description' => $this->request->data['description'], 'status' => $status, 'brand_id' => $brand, 'category_id' => $category, 'is_new' => $new, 'is_recommended' => $recommended]);
+        (new Product())->store(['name' => $this->request->data['name'], 'price' => $this->request->data['price'], 'description' => $this->request->data['description'], 'status' => $status, 'brand_id' => $brand, 'category_id' => $category, 'is_new' => $new, 'is_recommended' => $recommended,"image" => $this->request->data['file_name']]);
         return header('Location: /admin/products');
     }
 
@@ -62,11 +64,18 @@ class ProductController extends Controller
     public function update()
     {
         $status = $this->request->data['status'] ? 1 : 0;
+        if (!empty($this->request->data['image'])) {
+            $category = (new Category())->getByPK($this->request->data['id']);
+            $imageName = Helper::asset('categories', $category->image);
+            if(file_exists($imageName)){
+                unlink($imageName);
+            }
+        }
         $new = $this->request->data['new'] ? 1 : 0;
         $recommended = $this->request->data['recommended'] ? 1 : 0;
         $brand = $this->request->data['brand_id'];
         $category = $this->request->data['category_id'];
-        (new Product())->update($this->request->data['id'], ['name' => $this->request->data['name'], 'price' => $this->request->data['price'], 'description' => $this->request->data['description'], 'status' => $status, 'brand_id' => $brand, 'category_id' => $category, 'is_new' => $new, 'is_recommended' => $this->$recommended]);
+        (new Product())->update($this->request->data['id'], ['name' => $this->request->data['name'], 'price' => $this->request->data['price'], 'description' => $this->request->data['description'], 'status' => $status, 'brand_id' => $brand, 'category_id' => $category, 'is_new' => $new, 'is_recommended' => $recommended,"image" => $this->request->data['file_name']]);
         return header('Location: /admin/products');
     }
 
@@ -75,6 +84,11 @@ class ProductController extends Controller
         $title = "Product Delete";
         extract($vars);
         if (isset($_POST['submit'])) {
+            $category = (new Category())->getByPK($id);
+            $image = $category->image;
+            if (file_exists(ROOT . 'public/assets/images/products/' . $image)) {
+                unlink(ROOT . 'public/assets/images/products/' . $image);
+            }
             (new Product())->destroy($id);
             return header('Location: /admin/products');
         } elseif (isset($_POST['reset'])) {
@@ -83,6 +97,24 @@ class ProductController extends Controller
         }
         $product = (new Product())->getByPK($id);
         $this->view->render('admin/products/delete', compact('title', 'product'), 'admin');
+    }
+
+    public function insertImage()
+    {
+        if (!empty($this->request->data['image'])) {
+            list($file, $filename) = $this->fileName($this->request->data['image']);
+            $uploaded = Helper::asset('products', $filename);
+            file_put_contents($uploaded, $file);
+        }
+        echo $filename;
+    }
+
+    private function fileName($file)
+    {
+        $image_array_1 = explode(";", $file);
+        $image_array_2 = explode(",", $image_array_1[1]);
+        $file = base64_decode($image_array_2[1]);
+        return [$file, sha1(mt_rand(1, 9999) . uniqid()) . time()];
     }
 
 }

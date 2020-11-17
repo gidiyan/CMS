@@ -6,11 +6,11 @@
             <div class="tb-4  sm-categories categories">
                 <h5 class="large text_uppercase mt-3">Categories</h5>
                 <div class="py2 px-4 mb-3 mt-3"><strong class="medium text_uppercase"></strong>
-                    <ul class="medium  categories-list"> </ul>
+                    <ul class="medium  categories-list"></ul>
                 </div>
                 <h5 class="large text_uppercase mt-3">Subcategories</h5>
                 <div class="py2 px-4 mb-3 mt-3"><strong class="medium text_uppercase"></strong>
-                    <ul class="medium subcategories-list"> </ul>
+                    <ul class="medium subcategories-list"></ul>
                 </div>
             </div>
 

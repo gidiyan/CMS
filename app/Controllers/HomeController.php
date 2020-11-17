@@ -5,7 +5,6 @@ require_once MODELS . '/Category.php';
 require_once MODELS . '/Brand.php';
 
 
-
 class HomeController extends Controller
 {
     public function index()

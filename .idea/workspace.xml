@@ -17,54 +17,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b8bc369-22ba-4733-b4c5-e70efb186608" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Admin/RoleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Admin/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/ProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/roles/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/roles/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/roles/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/roles/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/roles/show.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/users/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/users/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/users/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/users/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/users/show.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/blog/_slider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/croppie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/categories/01cea498fd5be5346eadc7ca11890ea4f271bd4d1605515882" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/categories/9ce34d5683d95debbfc33cab470fa9664ff9ccbb1605515986" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/categories/b3df09a44224be68ed390c8d22c07f15cc8a92981605515957" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/croppie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/feather.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/categories/_modal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Views/admin/products/_modal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/products/8178541c11fcda4fedca4a0633b21c9fb45fc2a21605612193" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/products/847f49c43da36abe9ef1bf97d6d914fb7d5ef9591605608709" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/Admin/BrandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Admin/BrandController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Admin/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/about/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/about/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/about/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/about/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/admin/categories/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/categories/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/admin/categories/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/categories/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/blog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/blog/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_head.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_script.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_scripts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/admin/_sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/partials/site/_modal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/partials/site/_modal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/admin/products/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/products/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/admin/products/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/products/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/shop/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/shop/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Session.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/dashboard.js" afterDir="false" />
     </list>
@@ -104,25 +77,25 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Views/admin/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/images/products" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dogshop.me\public\assets\images\products" />
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\products" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\users" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\roles" />
-      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\products" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\brands" />
-      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\messages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\categories" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\brands" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\roles" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\tmp" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\layouts" />
-      <recent name="C:\xampp\htdocs\dogshop.me" />
     </key>
   </component>
   <component name="RunManager">
@@ -163,7 +136,7 @@
       <workItem from="1604735527621" duration="78771000" />
       <workItem from="1605160514025" duration="21000" />
       <workItem from="1605160613775" duration="3431000" />
-      <workItem from="1605258512481" duration="56634000" />
+      <workItem from="1605258512481" duration="70154000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1603547847061</created>
@@ -256,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605258806432</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="first commit">
+      <created>1605544168621</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605544168621</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,10 +313,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1605341257097" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605258873758">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605544172713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605258873758" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605544172713" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605258105072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

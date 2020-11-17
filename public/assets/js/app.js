@@ -45,7 +45,7 @@ class Product {
             const id = item.id;
             const name = item.name;
             const price = item.price;
-            const img = `/assets/images/categories/${item.image}`;
+            const img = `/assets/images/products/${item.image}`;
             const category_id = item.category_id;
             const brand_id = item.brand_id;
             return {id, name, price, img, category_id, brand_id};
@@ -118,6 +118,7 @@ class App {
             }
             document.querySelector('.showcase').innerHTML = result;
         } else {
+            console.dir(products);
             let result = '';
             products.forEach(item => {
                 result += this.createProduct(item);

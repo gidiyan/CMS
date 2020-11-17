@@ -4,7 +4,7 @@ class Session
 {
     private static $sessionStarted = false;
 
-    public function init()
+    public static function init()
     {
         if (self::$sessionStarted == false) {
             session_start();

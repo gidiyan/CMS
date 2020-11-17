@@ -35,7 +35,7 @@ class LoginController extends Auth
             $this->message = 'You Are Logged';
             Session::set('message', $this->message);
             Session::set('user_id', $this->user->id);
-            setcookie('logged',$this->logged_in);
+            setcookie('logged', $this->logged_in);
             return header('Location: /profile');
         }
     }
@@ -44,7 +44,7 @@ class LoginController extends Auth
     {
         Session::destroy('user_id');
         $this->logged_in = false;
-        setcookie('logged',$this->logged_in, time()-3600);
+        setcookie('logged', $this->logged_in, time() - 3600);
         return header('Location: /');
     }
 }

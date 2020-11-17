@@ -41,8 +41,30 @@
                 <input type="number" step="0.01" class="form-control" style="width: 30vw" id="price" name="price"
                        value="<?= $product->price ?>" required>
                 <label class="form-group" for="description">Description</label>
-                <textarea type="text" class="form-control" rows="10" cols="30" style="width: 30vw" id="description"
+                <textarea type="text" class="form-control" rows="5" cols="30" style="width: 30vw" id="description"
                           name="description" required><?= $product->description ?></textarea>
+                <div class="form-group row" id="drop-area" style="width: 32vw">
+                    <div class="container-fluid">
+                        <div class="card border-dark text-center mb-3">
+                            <div class="card-header bg-transparent border-dark">
+                                <label for="title">Add Image:</label>
+                            </div>
+                            <div class="card-body text-dark">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="file" id="insert_image" multiple accept="image/*"
+                                               name="image">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 my-3" id="store_image">
+                                        <p>Drop Picture Here</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="form-group form-check">
                     <div>
                         <input type="checkbox" class="form-check-input" id="status"
@@ -52,17 +74,18 @@
                     <div>
                         <input type="checkbox" class="form-check-input" id="new"
                                name="new" <?php echo ($product->is_new == 1) ? 'checked' : '' ?>>
-                        <label class="form-check-label" for="status">Check if new</label>
+                        <label class="form-check-label" for="new">Check if new</label>
                     </div>
                     <div>
                         <input type="checkbox" class="form-check-input" id="recommended"
                                name="recommended" <?php echo ($product->is_recommended == 1) ? 'checked' : '' ?>>
-                        <label class="form-check-label" for="status">Check if recommended</label>
+                        <label class="form-check-label" for="recommended">Check if recommended</label>
                     </div>
                     <button type="submit" class="btn btn-primary">Update Product</button>
                 </div>
             </form>
         </div>
     </div>
-
+</div>
+<?php require_once VIEWS . '/admin/products/_modal.php' ?>
 

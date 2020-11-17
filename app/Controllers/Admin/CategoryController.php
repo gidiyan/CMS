@@ -23,9 +23,7 @@ class CategoryController extends Controller
 
     public function store()
     {
-
-        $status = $this->request->data['status'] ? 1 : 0;
-        (new Category())->store(["name" => $this->request->data['name'], 'status' => $status, "image" => $this->request->data['file_name']]);
+      (new Category())->store(["name" => $this->request->data['name'], 'status' => $status, "image" => $this->request->data['file_name']]);
         return header('Location: /admin/categories');
     }
 
@@ -48,6 +46,13 @@ class CategoryController extends Controller
     public function update()
     {
         $status = $this->request->data['status'] ? 1 : 0;
+        if (!empty($this->request->data['image'])) {
+            $category = (new Category())->getByPK($this->request->data['id']);
+            $imageName = Helper::asset('categories', $category->image);
+            if(file_exists($imageName)){
+                unlink($imageName);
+            }
+        }
         (new Category())->update($this->request->data['id'], ['name' => $this->request->data['name'], 'status' => $status, "image" => $this->request->data['file_name']]);
         return header('Location: /admin/categories');
     }
@@ -59,8 +64,8 @@ class CategoryController extends Controller
         if (isset($_POST['submit'])) {
             $category = (new Category())->getByPK($id);
             $image = $category->image;
-            if(file_exists(ROOT.'public/assets/images/categories/'.$image)) {
-                unlink(ROOT.'public/assets/images/categories/'.$image);
+            if (file_exists(ROOT . 'public/assets/images/categories/' . $image)) {
+                unlink(ROOT . 'public/assets/images/categories/' . $image);
             }
             (new Category())->destroy($id);
             return header('Location: /admin/categories');

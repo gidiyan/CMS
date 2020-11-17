@@ -30,9 +30,6 @@ img {
     display: block;
 }
 
-.img-fluid {
-    max-width: 100%;
-}
 
 a {
     color: var(--color-3);
