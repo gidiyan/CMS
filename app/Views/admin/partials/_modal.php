@@ -7,18 +7,14 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-md-8">
-                        <div id="image_crop" style="width:300px; margin-top:30px"></div>
-                    </div>
-                    <div class="col-md-4" style="padding-top:30px;">
-                        <button class="btn btn-success crop_image img-fluid" data-model="products">Crop & Insert
-                            Image
-                        </button>
-                    </div>
+                    <div id="image_crop"></div>
                 </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button class="btn btn-success crop_image img-fluid" data-model="<?= $resource ?>">Crop & Insert
+                    Image
+                </button>
             </div>
         </div>
     </div>

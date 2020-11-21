@@ -14,19 +14,6 @@ class GuestbookController extends Controller
         $this->view->render('admin/guestbook/index', compact('title', 'messages'), 'admin');
     }
 
-//    public function create()
-//    {
-//        $title = "Create Message";
-//        $this->view->render('admin/guestbook/create', compact('title'), 'admin');
-//    }
-
-//    public function store()
-//    {
-//        $status = $this->request->data['status'] ? 1:0;
-//        var_dump($status);
-//        (new Guestbook())->store(["name"=>$this->request->data['name'], 'status'=>$status]);
-//        return header('Location: /admin/guestbook');
-//    }
 
     public function show($vars)
     {

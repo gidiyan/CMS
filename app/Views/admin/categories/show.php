@@ -9,7 +9,10 @@
             <div class="form-group">
                 <label for="name">Category name</label>
                 <input type="text" class="form-control" value="<?= $category->name ?>" disabled>
-                <small id="nameHelp" class="form-text text-muted">Category name required.</small>
+                <small id="nameHelp" class="form-text text-muted">Category name.</small>
+                <img id="file-image" src="/assets/images/categories/<?=$category->image?>" alt="Preview" class="img-thumbnail"
+                     width=200>
+
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label" for="status">Status:</label>

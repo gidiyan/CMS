@@ -18,12 +18,14 @@ class CategoryController extends Controller
     public function create()
     {
         $title = "Create Category";
-        $this->view->render('admin/categories/create', compact('title'), 'admin');
+        $resource = Category::getResource();
+        $this->view->render('admin/categories/create', compact('title', 'resource'), 'admin');
     }
 
     public function store()
     {
-      (new Category())->store(["name" => $this->request->data['name'], 'status' => $status, "image" => $this->request->data['file_name']]);
+        $status = $this->request->data['status'] ? 1 : 0;
+        (new Category())->store(["name" => $this->request->data['name'], 'status' => $status, "image" => $this->request->data['file_name']]);
         return header('Location: /admin/categories');
     }
 
@@ -40,7 +42,8 @@ class CategoryController extends Controller
         extract($vars);
         $title = "Category Edit";
         $category = (new Category())->getByPK($id);
-        $this->view->render('admin/categories/edit', compact('title', 'category'), 'admin');
+        $resource = Category::getResource();
+        $this->view->render('admin/categories/edit', compact('title', 'category', 'resource'), 'admin');
     }
 
     public function update()
@@ -49,7 +52,7 @@ class CategoryController extends Controller
         if (!empty($this->request->data['image'])) {
             $category = (new Category())->getByPK($this->request->data['id']);
             $imageName = Helper::asset('categories', $category->image);
-            if(file_exists($imageName)){
+            if (file_exists($imageName)) {
                 unlink($imageName);
             }
         }

@@ -66,9 +66,9 @@ return [
     'api/categories/insert_image' => 'Admin\CategoryController@insertImage',
     'api/products/insert_image' => 'Admin\ProductController@insertImage',
 
-    'api/products' => 'HomeController@getProducts',
     'api/products/{id}' => 'HomeController@getProduct',
 
+    'api/products' => 'HomeController@getProducts',
     'api/categories' => 'HomeController@getCategories',
     'api/brands' => 'HomeController@getBrands',
 

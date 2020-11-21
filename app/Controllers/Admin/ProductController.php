@@ -25,7 +25,8 @@ class ProductController extends Controller
         $title = "Create Product";
         $categories = (new Category())->all();
         $brands = (new Brand())->all();
-        $this->view->render('admin/products/create', compact('title', 'categories', 'brands'), 'admin');
+        $resource = Product::getResource();
+        $this->view->render('admin/products/create', compact('title', 'categories', 'brands', 'resource'), 'admin');
     }
 
     public function store()
@@ -36,7 +37,7 @@ class ProductController extends Controller
         $recommended = $this->request->data['recommended'] ? 1 : 0;
         $brand = $this->request->data['brand_id'];
         $category = $this->request->data['category_id'];
-        (new Product())->store(['name' => $this->request->data['name'], 'price' => $this->request->data['price'], 'description' => $this->request->data['description'], 'status' => $status, 'brand_id' => $brand, 'category_id' => $category, 'is_new' => $new, 'is_recommended' => $recommended,"image" => $this->request->data['file_name']]);
+        (new Product())->store(['name' => $this->request->data['name'], 'price' => $this->request->data['price'], 'description' => $this->request->data['description'], 'status' => $status, 'brand_id' => $brand, 'category_id' => $category, 'is_new' => $new, 'is_recommended' => $recommended, "image" => $this->request->data['file_name']]);
         return header('Location: /admin/products');
     }
 
@@ -57,7 +58,8 @@ class ProductController extends Controller
         $product = (new Product())->getByPK($id);
         $categories = (new Category())->all();
         $brands = (new Brand())->all();
-        $this->view->render('admin/products/edit', compact('title', 'product', 'brands', 'categories'), 'admin');
+        $resource = Product::getResource();
+        $this->view->render('admin/products/edit', compact('title', 'product', 'brands', 'categories', 'resource'), 'admin');
 
     }
 
@@ -67,7 +69,7 @@ class ProductController extends Controller
         if (!empty($this->request->data['image'])) {
             $category = (new Category())->getByPK($this->request->data['id']);
             $imageName = Helper::asset('categories', $category->image);
-            if(file_exists($imageName)){
+            if (file_exists($imageName)) {
                 unlink($imageName);
             }
         }
@@ -75,7 +77,7 @@ class ProductController extends Controller
         $recommended = $this->request->data['recommended'] ? 1 : 0;
         $brand = $this->request->data['brand_id'];
         $category = $this->request->data['category_id'];
-        (new Product())->update($this->request->data['id'], ['name' => $this->request->data['name'], 'price' => $this->request->data['price'], 'description' => $this->request->data['description'], 'status' => $status, 'brand_id' => $brand, 'category_id' => $category, 'is_new' => $new, 'is_recommended' => $recommended,"image" => $this->request->data['file_name']]);
+        (new Product())->update($this->request->data['id'], ['name' => $this->request->data['name'], 'price' => $this->request->data['price'], 'description' => $this->request->data['description'], 'status' => $status, 'brand_id' => $brand, 'category_id' => $category, 'is_new' => $new, 'is_recommended' => $recommended, "image" => $this->request->data['file_name']]);
         return header('Location: /admin/products');
     }
 

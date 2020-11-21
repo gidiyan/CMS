@@ -72,6 +72,10 @@
     padding-left: 15px;
 }
 
+.hidden {
+    visibility: hidden !important;
+}
+
 .tb-9 {
     flex: 0 0 calc(3 * 100% / 4);
     max-width: calc(3 * 100% / 4)

@@ -29,11 +29,15 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input type="file" id="insert_image" multiple accept="image/*"
-                                               name="image">
+                                               name="image" onchange="readURL(this, 'file-image');">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12 my-3" id="store_image">
+                                        <div class="col-md-2" style="margin-bottom:16px;">
+                                            <img id="file-image" src="/assets/images/categories/<?=$category->image?>" alt="Preview" class="img-thumbnail hidden"
+                                                 width=200>
+                                        </div>
                                         <p>Drop Picture Here</p>
                                     </div>
                                 </div>
@@ -46,4 +50,4 @@
         </div>
     </div>
 </div>
-<?php require_once VIEWS . '/admin/categories/_modal.php' ?>
+<?php require_once VIEWS . '/admin/partials/_modal.php' ?>

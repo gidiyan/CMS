@@ -17,28 +17,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b8bc369-22ba-4733-b4c5-e70efb186608" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/categories/_modal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/admin/products/_modal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/8178541c11fcda4fedca4a0633b21c9fb45fc2a21605612193" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/847f49c43da36abe9ef1bf97d6d914fb7d5ef9591605608709" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/Admin/GuestbookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Admin/GuestbookController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Admin/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/about/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/about/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/admin/categories/_modal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/partials/_modal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/admin/categories/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/categories/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/admin/categories/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/categories/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/admin/categories/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/categories/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/admin/products/_modal.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/admin/products/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/products/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/admin/products/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/products/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/shop/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/shop/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/admin/products/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/admin/products/show.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/products/0dfae7f82d0503517ed942036123cfcb3ee437f51605612429" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/products/1626320acca1bdd557cbe31c81926371d39c06a61605612488" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/products/8178541c11fcda4fedca4a0633b21c9fb45fc2a21605612193" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/products/840c5a48fb03762c95897ad019c383f493b2ec371605612458" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/products/847f49c43da36abe9ef1bf97d6d914fb7d5ef9591605608709" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/products/96c38c6f733b098399a28243ad9aa049d867b8b01605612398" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/croppie.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/croppie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/dashboard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,25 +81,26 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/images/products" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/images/categories" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\dogshop.me\public\assets\images\products" />
-      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\products" />
-      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\users" />
-      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\roles" />
-      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\brands" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\partials" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\categories" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\brands" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\roles" />
       <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\tmp" />
-      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\layouts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dogshop.me\public\assets\images\categories" />
+      <recent name="C:\xampp\htdocs\dogshop.me\public\assets\images\products" />
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\products" />
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\users" />
+      <recent name="C:\xampp\htdocs\dogshop.me\app\Views\admin\roles" />
     </key>
   </component>
   <component name="RunManager">
@@ -136,7 +141,12 @@
       <workItem from="1604735527621" duration="78771000" />
       <workItem from="1605160514025" duration="21000" />
       <workItem from="1605160613775" duration="3431000" />
-      <workItem from="1605258512481" duration="70154000" />
+      <workItem from="1605258512481" duration="73558000" />
+      <workItem from="1605679893253" duration="696000" />
+      <workItem from="1605681108947" duration="83000" />
+      <workItem from="1605681302360" duration="10556000" />
+      <workItem from="1605768292697" duration="2248000" />
+      <workItem from="1605943105827" duration="12621000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1603547847061</created>
@@ -236,7 +246,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605544168621</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="first commit">
+      <created>1605612543766</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605612543766</updated>
+    </task>
+    <task id="LOCAL-00016" summary="first commit">
+      <created>1605612571184</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605612571184</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,14 +305,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604138322379" />
-    <state x="427" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604990605808">
+    <state x="427" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605955262937">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="427" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604990605808" />
+    <state x="427" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1605955262937" />
     <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1605258825078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1605258825078" />
+    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1605680896937">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1605680896937" />
     <state x="180" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605080378233">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -297,6 +325,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604395612378" />
+    <state x="430" y="218" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605955399554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="218" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1605955399554" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1605258105072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -313,10 +345,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1605341257097" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605544172713">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605612584199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605544172713" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605612584199" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605258105072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -22,8 +22,17 @@ class Storage {
         return products.find(product => product.id === +(id));
     }
 
-    static getStorageItem(key) {
+    static getOrderFilter(key) {
         return JSON.parse(localStorage.getItem(key));
+    }
+
+    static setCategoryFilter(key) {
+        localStorage.setItem('categoryFilter', JSON.stringify(key));
+    }
+
+
+    static setOrderFilter(key) {
+        localStorage.setItem('orderFilter', JSON.stringify(key));
     }
 
     static getProducts() {
@@ -118,7 +127,6 @@ class App {
             }
             document.querySelector('.showcase').innerHTML = result;
         } else {
-            console.dir(products);
             let result = '';
             products.forEach(item => {
                 result += this.createProduct(item);
@@ -336,11 +344,13 @@ class App {
                 const category_id = target.dataset.category;
                 const categoryFilter = items => items.filter(item => item.category_id == category_id);
                 this.makeShowcase(categoryFilter(Storage.getProducts()));
+                Storage.setCategoryFilter(category_id);
             } else if (
                 target.classList.contains('brand-item')) {
                 const brand_id = target.dataset.brand;
                 const brandFilter = items => items.filter(item => item.brand_id == brand_id);
                 this.makeShowcase(brandFilter(Storage.getProducts()));
+                Storage.setCategoryFilter(brand_id);
             } else {
                 this.makeShowcase((Storage.getProducts()));
             }
@@ -356,12 +366,15 @@ class App {
                 switch (selectpicker.value) {
                     case 'low-high':
                         this.makeShowcase(Storage.getProducts().sort(this.compareValue('price', 'asc')));
+                        Storage.setOrderFilter('low-high');
                         break;
                     case 'high-low':
                         this.makeShowcase(Storage.getProducts().sort(this.compareValue('price', 'desc')));
+                        Storage.setOrderFilter('high-low');
                         break;
                     case 'popularity':
                         this.makeShowcase(Storage.getProducts().sort(this.compareValue('id', 'asc')));
+                        Storage.setOrderFilter('popularity');
                         break;
                     default:
                         this.makeShowcase(Storage.getProducts().sort(this.compareValue('id', 'asc')));
@@ -371,6 +384,7 @@ class App {
                 this.testlike();
                 this.renderCategory();
                 this.categoriesList();
+
             });
         }
     }

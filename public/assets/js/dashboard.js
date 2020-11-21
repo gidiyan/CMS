@@ -1,24 +1,52 @@
 /* globals Chart:false, feather:false */
+
 (function () {
     'use strict';
     feather.replace();
 
 }())
 
-$(document).ready(function () {
+function readURL(input, id) {
+    if (input.files && input.files[0]) {
+        let reader = new FileReader();
 
-    $image_crop = $('#image_crop').croppie({
-        enableExif: true,
-        viewport: {
-            width: 200,
-            height: 217,
-            type: 'square' //circle square
-        },
-        boundary: {
-            width: 300,
-            height: 300
-        }
-    });
+        reader.onload = function (e) {
+            document.getElementById(id).setAttribute('src', e.target.result);
+        };
+
+        reader.readAsDataURL(input.files[0]);
+        document.getElementById(id).classList.remove('hidden');
+    }
+}
+
+$(document).ready(function () {
+    if ($('.crop_image').attr('data-model') === 'products') {
+        $image_crop = $('#image_crop').croppie({
+            enableExif: true,
+            viewport: {
+                width: 200,
+                height: 217,
+                type: 'square' //circle square
+            },
+            boundary: {
+                width: 300,
+                height: 300
+            }
+        });
+    } else {
+        $image_crop = $('#image_crop').croppie({
+            enableExif: true,
+            viewport: {
+                width: 270,
+                height: 130,
+                type: 'square' //circle square
+            },
+            boundary: {
+                width: 300,
+                height: 150
+            }
+        });
+    }
 
     $('#insert_image').on('change', function () {
         var reader = new FileReader();
@@ -26,7 +54,7 @@ $(document).ready(function () {
             $image_crop.croppie('bind', {
                 url: event.target.result
             }).then(function () {
-                // console.log('jQuery bind complete');
+                console.log('jQuery bind complete');
             });
         }
         reader.readAsDataURL(this.files[0]);
@@ -34,7 +62,6 @@ $(document).ready(function () {
     });
     const model = $('.crop_image').attr('data-model');
     $('.crop_image').click(function (event) {
-        // console.log($(this).attr('data-model'));
         $image_crop.croppie('result', {
             type: 'canvas',
             size: 'viewport'
@@ -50,7 +77,7 @@ $(document).ready(function () {
           <input type="hidden" name="file_name" value="${data}">
           <div class="row">
             <div class="col-md-2" style="margin-bottom:16px;">
-              <img src="/assets/images/${model}/${data}" class="img-thumbnail" />
+              <img src="/assets/images/${model}/${data}" class="img-thumbnail" alt="Preview"/>
             </div>
           </div>`;
                     $('#store_image').html(output);
@@ -59,21 +86,4 @@ $(document).ready(function () {
             })
         });
     });
-
-    // load_image();
-
-    function load_image(id) {
-        $.ajax({
-            url: "/api/categories/fetch_image/1",
-            success: function (result) {
-                output = `
-          <div class="row">
-            <div class="col-md-4" style="margin-bottom:16px;">
-              <img src="/assets/images/categories/${result}" class="img-thumbnail" />
-            </div>
-          </div>`;
-                $('#store_image').html(output);
-            }
-        })
-    }
 });

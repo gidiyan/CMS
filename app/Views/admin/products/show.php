@@ -42,6 +42,8 @@
             <label class="form-group" for="name">Description</label>
             <textarea type="text" class="form-control" rows="10" cols="30" style="width: 30vw" id="description"
                       name="description" disabled><?= $product->description ?></textarea>
+            <img id="file-image" src="/assets/images/products/<?=$product->image?>" alt="Preview" class="img-thumbnail"
+                 width=200>
         </div>
         <div class="form-group form-check">
             <div>
