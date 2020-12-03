@@ -1,5 +1,4 @@
 <?php
-require_once COMMON . '/Controller.php';
 
 class ConfigController extends Controller
 {

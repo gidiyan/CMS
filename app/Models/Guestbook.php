@@ -1,7 +1,5 @@
 <?php
 
-require_once COMMON . '/Model.php';
-
 class Guestbook extends Model
 {
     protected static $table = 'guestbook';

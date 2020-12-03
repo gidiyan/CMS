@@ -1,5 +1,4 @@
 <?php
-require_once COMMON . '/Controller.php';
 
 class ErrorController extends Controller
 {

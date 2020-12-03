@@ -1,7 +1,5 @@
 <?php
 
-require_once COMMON . '/Connection.php';
-
 class Model
 {
     protected $conn;
@@ -73,6 +71,17 @@ class Model
     {
         $stmt = $this->conn->prepare($sql);
         $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_OBJ);
+    }
+    public function getItemsById($sql, $id){
+        $stmt = $this->conn->prepare($sql);
+        $stmt->execute([$id]);
+        return $stmt->fetchAll(PDO::FETCH_OBJ);
+    }
+
+    public function getItemById($sql, $id){
+        $stmt = $this->conn->prepare($sql);
+        $stmt->execute([$id]);
         return $stmt->fetch(PDO::FETCH_OBJ);
     }
 }

@@ -1,7 +1,4 @@
 <?php
-require_once COMMON . '/Controller.php';
-require_once MODELS . '/Guestbook.php';
-
 
 class BlogController extends Controller
 {

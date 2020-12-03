@@ -19,7 +19,12 @@
                                                                             class="count-items-in-cart"></small>)</a>
                 </li>
                 <li><a href="#"><i class="far fa-heart"></i>(<small class="like_me"></small>)</a></li>
-                <li><a href="#login"><i class="fas fa-user-alt"></i></a></li>
+                <?php if (Helper::isGuest()): ?>
+                    <li><a href="#login"><i class="fas fa-user-alt"></i></a></li>
+                <?php else: ?>
+                    <li><a title="User Profile" href="/profile"><i class="fas fa-address-card"></i></a></li>
+                    <li><a title="Sign Out" href="/logout"><i class="fas fa-sign-out-alt"></i></a></li>
+                <?php endif; ?>
             </ul>
             <label for="hamburger" class="nav-ham"><i class="fa-bars fa"></i></label>
         </div>

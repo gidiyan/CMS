@@ -1,9 +1,4 @@
 <?php
-//CRUD API resource controller
-require_once COMMON . '/Controller.php';
-require_once MODELS . '/User.php';
-require_once MODELS . '/Role.php';
-
 
 class UserController extends Controller
 {

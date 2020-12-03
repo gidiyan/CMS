@@ -16,13 +16,6 @@ class Request
         return array_merge($post, $file);
     }
 
-    public function uri()
-    {
-        if (isset($_SERVER['REQUEST_URI']) && !empty($_SERVER['REQUEST_URI'])) {
-            return trim($_SERVER['REQUEST_URI'], '/');
-        }
-    }
-
     private function cleanInput($data)
     {
         if (is_array($data)) {
@@ -34,4 +27,38 @@ class Request
         }
         return trim(htmlspecialchars($data, ENT_QUOTES));
     }
+
+    public function uri()
+    {
+        if (isset($_SERVER['REQUEST_URI']) && !empty($_SERVER['REQUEST_URI'])) {
+            return trim($_SERVER['REQUEST_URI'], '/');
+        }
+    }
+
+    public function root()
+    {
+        return $this->getHost();
+    }
+
+    public function getHost()
+    {
+        return $this->protocol() . '://' . $this->host();
+    }
+
+    public function protocol()
+    {
+        return $this->isSSL() ? 'https' : 'http';
+    }
+
+    public function isSSL()
+    {
+        return isset($_SERVER['HTTPS']) && !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== "off";
+    }
+
+    public function host()
+    {
+        return $_SERVER['HTTP_HOST'];
+    }
+
+
 }

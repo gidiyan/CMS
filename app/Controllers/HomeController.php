@@ -1,9 +1,4 @@
 <?php
-require_once COMMON . '/Controller.php';
-require_once MODELS . '/Product.php';
-require_once MODELS . '/Category.php';
-require_once MODELS . '/Brand.php';
-
 
 class HomeController extends Controller
 {

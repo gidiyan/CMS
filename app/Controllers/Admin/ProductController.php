@@ -1,12 +1,4 @@
 <?php
-//CRUD API resource controller
-require_once COMMON . '/Controller.php';
-require_once COMMON . '/Request.php';
-require_once MODELS . '/Product.php';
-require_once MODELS . '/Category.php';
-require_once MODELS . '/Brand.php';
-require_once COMMON . '/Helper.php';
-
 
 class ProductController extends Controller
 {

@@ -1,7 +1,4 @@
 <?php
-require_once COMMON . '/Controller.php';
-require_once COMMON . '/Session.php';
-require_once MODELS . '/User.php';
 
 class Auth extends Controller
 {

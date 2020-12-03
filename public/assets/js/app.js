@@ -421,6 +421,7 @@ class App {
             .catch(err => console.error('fetch Error : -S', err));
     }
 
+
 }
 
 (function () {
@@ -442,4 +443,32 @@ class App {
     app.addProductToCart();
     app.renderCart();
     app.testlike();
+
+    //checkout__now
+    if (document.querySelector('.checkout__now')) {
+        document.querySelector('.checkout__now').addEventListener('click', () => {
+            let inCart = [];
+            app.cart.forEach(item => {
+                inCart.push({
+                    id: item.id,
+                    amount: item.amount
+                });
+            });
+            fetch("/api/cart", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    cart: inCart,
+                })
+            })
+                .then(function (response){
+                    app.clearcart();
+                    document.location.replace('/profile');
+                })
+                .catch(function(error) {
+                    console.log(error);})
+        })
+    }
 })();

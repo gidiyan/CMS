@@ -15,6 +15,7 @@
                             <th scope="col" class="text-center">#</th>
                             <th scope="col" class="text-center">Name</th>
                             <th scope="col" class="text-center">Email</th>
+                            <th scope="col" class="text-center">Role</th>
                             <th scope="col" class="text-center">Actions</th>
                         </tr>
                         </thead>
@@ -24,6 +25,7 @@
                                 <th scope="row" class="text-center"><?= $user->id ?></th>
                                 <td class="text-center"><?= $user->name ?></td>
                                 <td class="text-center"><?= $user->email ?></td>
+                                <td class="text-center"><?= $user->role_id ?></td>
                                 <td class="text-center"><a href="/admin/users/show/<?= $user->id ?>"
                                                            class="btn btn-default"><span data-feather="eye"></span>View</a>
                                     <a href="/admin/users/edit/<?= $user->id ?>" class="btn btn-primary"><span

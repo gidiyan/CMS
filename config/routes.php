@@ -14,7 +14,6 @@ return [
     'config' => 'ConfigController@index',
     'admin' => 'Admin\DashboardController@index',
 
-
     'admin/categories' => 'Admin\CategoryController@index',
     'admin/brands' => 'Admin\BrandController@index',
     'admin/products' => 'Admin\ProductController@index',
@@ -63,14 +62,17 @@ return [
     'admin/users/delete/{id}' => 'Admin\UserController@destroy',
     '404' => 'ErrorController@notFound',
 
+    'api/categories' => 'HomeController@getCategories',
     'api/categories/insert_image' => 'Admin\CategoryController@insertImage',
     'api/products/insert_image' => 'Admin\ProductController@insertImage',
-
     'api/products/{id}' => 'HomeController@getProduct',
-
     'api/products' => 'HomeController@getProducts',
-    'api/categories' => 'HomeController@getCategories',
     'api/brands' => 'HomeController@getBrands',
+    'api/cart' => 'OrderController@cart',
 
+    'profile/orders' => 'ProfileController@orderList',
+    'profile/orders/view/{id}'=> 'ProfileController@orderView',
+    'profile/orders/check/{id}'=> 'ProfileController@checkOrder',
+    'profile/orders/change'=> 'ProfileController@changeOrder',
 
 ];

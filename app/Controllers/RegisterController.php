@@ -1,6 +1,4 @@
 <?php
-require_once COMMON . '/Auth.php';
-require_once MODELS . '/User.php';
 
 class RegisterController extends Auth
 {

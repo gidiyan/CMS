@@ -1,9 +1,4 @@
 <?php
-//CRUD API resource controller
-require_once COMMON . '/Controller.php';
-require_once COMMON . '/Request.php';
-require_once MODELS . '/Guestbook.php';
-
 
 class GuestbookController extends Controller
 {

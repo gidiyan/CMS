@@ -1,6 +1,4 @@
 <?php
-require_once COMMON . '/Request.php';
-require_once COMMON . '/Router.php';
 
 class App
 {
