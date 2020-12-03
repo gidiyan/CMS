@@ -69,7 +69,7 @@
             margin: 15px;
         }
 
-        label>span {
+        label > span {
             float: left;
             width: 25%;
             margin-top: 12px;
@@ -112,12 +112,12 @@
             padding: 10px 0;
         }
 
-        tr>td:nth-child(1) {
+        tr > td:nth-child(1) {
             text-align: left;
             color: #2d2d2a;
         }
 
-        tr>td:nth-child(2) {
+        tr > td:nth-child(2) {
             text-align: right;
             color: indigo;
         }
@@ -134,7 +134,7 @@
             padding-left: 25px;
         }
 
-        .Yorder>div {
+        .Yorder > div {
             padding: 15px 0;
         }
 
@@ -161,7 +161,7 @@
 <body>
 <!-- Page Content  -->
 
-<?php include(VIEWS."/".$template); ?>
+<?php include(VIEWS . "/" . $template); ?>
 
 </body>
 

@@ -1,10 +1,11 @@
 <div class="position-fixed mx-5">
     <div class="profile-userpic">
-        <a href="/profile" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="/assets/images/user.png" size="20%"></a>
+        <a href="/profile" class="pull-right"><img title="profile image" class="img-circle img-responsive"
+                                                   src="/assets/images/user.png" size="20%"></a>
     </div>
     <div class="profile-usertitle">
         <div class="profile-usertitle-name">
-            <?= $user->name;?>
+            <?= $user->name; ?>
         </div>
         <div class="profile-usertitle-job">
             Developer

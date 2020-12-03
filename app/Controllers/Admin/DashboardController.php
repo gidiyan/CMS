@@ -18,8 +18,7 @@ class DashboardController extends Auth implements AuthInterface
         }
         if (!$this->user->role_id == 1) {
             return true;
-        }
-        else {
+        } else {
             return false;
         }
     }

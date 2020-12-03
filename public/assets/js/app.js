@@ -463,12 +463,13 @@ class App {
                     cart: inCart,
                 })
             })
-                .then(function (response){
+                .then(function (response) {
                     app.clearcart();
                     document.location.replace('/profile');
                 })
-                .catch(function(error) {
-                    console.log(error);})
+                .catch(function (error) {
+                    console.log(error);
+                })
         })
     }
 })();

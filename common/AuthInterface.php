@@ -1,6 +1,8 @@
 <?php
 
-Interface AuthInterface{
+interface AuthInterface
+{
     public function index();
+
     public function isAdmin();
 }

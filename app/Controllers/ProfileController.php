@@ -9,7 +9,7 @@ class ProfileController extends Auth implements AuthInterface
         }
         $title = 'Personal Dashboard';
         $user = $this->user;
-        $this->view->render('profile/index', compact('title','user'));
+        $this->view->render('profile/index', compact('title', 'user'));
     }
 
     public function isAdmin()
@@ -18,7 +18,8 @@ class ProfileController extends Auth implements AuthInterface
     }
 
 
-    public function orderList() {
+    public function orderList()
+    {
         if (!$this->user) {
             header('Location: /#login');
         }
@@ -27,7 +28,7 @@ class ProfileController extends Auth implements AuthInterface
         $title = "Personal Dashboard";
         $subtitle = "Your Orders";
         $user = $this->user;
-        $this->view->render('profile/orders', compact('title','user','orders','subtitle'));
+        $this->view->render('profile/orders', compact('title', 'user', 'orders', 'subtitle'));
     }
 
     public function orderView($vars)
@@ -42,20 +43,20 @@ class ProfileController extends Auth implements AuthInterface
 
         $sql = "SELECT * FROM products WHERE id = ?";
 
-        foreach ($orders as $ord){
+        foreach ($orders as $ord) {
             $item = (new Product)->getItemById($sql, $ord['id']);
             array_push($products, [
-                "id"=>$ord['id'],
-                "amount"=>$ord['amount'],
+                "id" => $ord['id'],
+                "amount" => $ord['amount'],
                 'name' => $item->name,
                 'price' => $item->price,
                 'image' => $item->image
             ]);
         }
 
-        $title = 'You order #'.$id;
+        $title = 'You order #' . $id;
         $user = $this->user;
-        $this->view->render('profile/order', compact('user', 'order', 'title',  'products'));
+        $this->view->render('profile/order', compact('user', 'order', 'title', 'products'));
     }
 
     private function getOrder($id)
@@ -78,9 +79,9 @@ class ProfileController extends Auth implements AuthInterface
         $products = [];
         $total = 0;
         $sql = "SELECT * FROM products WHERE id = ?";
-        foreach ($orders as $ord){
+        foreach ($orders as $ord) {
             $item = (new Product)->getItemById($sql, $ord['id']);
-            $total += $ord['amount']*$item->price;
+            $total += $ord['amount'] * $item->price;
         }
         $title = 'Product Order Form';
         $user = $this->user;

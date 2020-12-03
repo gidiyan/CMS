@@ -35,7 +35,8 @@
                                 <div class="row">
                                     <div class="col-md-12 my-3" id="store_image">
                                         <div class="col-md-2" style="margin-bottom:16px;">
-                                            <img id="file-image" src="/assets/images/categories/<?=$category->image?>" alt="Preview" class="img-thumbnail hidden"
+                                            <img id="file-image" src="/assets/images/categories/<?= $category->image ?>"
+                                                 alt="Preview" class="img-thumbnail hidden"
                                                  width=200>
                                         </div>
                                         <p>Drop Picture Here</p>

@@ -71,8 +71,8 @@ return [
     'api/cart' => 'OrderController@cart',
 
     'profile/orders' => 'ProfileController@orderList',
-    'profile/orders/view/{id}'=> 'ProfileController@orderView',
-    'profile/orders/check/{id}'=> 'ProfileController@checkOrder',
-    'profile/orders/change'=> 'ProfileController@changeOrder',
+    'profile/orders/view/{id}' => 'ProfileController@orderView',
+    'profile/orders/check/{id}' => 'ProfileController@checkOrder',
+    'profile/orders/change' => 'ProfileController@changeOrder',
 
 ];

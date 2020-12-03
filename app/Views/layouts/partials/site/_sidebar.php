@@ -11,7 +11,7 @@
         <?php if (Helper::isGuest()): ?>
             <p>To make Your order please <a href="/#login">Sign In</a></p>
         <?php else: ?>
-        <a href="#" class="check-out clear-cart btn-info font-size--default checkout__now">Checkout</a>
-        <?php endif;?>
+            <a href="#" class="check-out clear-cart btn-info font-size--default checkout__now">Checkout</a>
+        <?php endif; ?>
     </div>
 </aside>
